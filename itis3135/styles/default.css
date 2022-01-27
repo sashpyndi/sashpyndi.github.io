@@ -16,7 +16,9 @@ h2{
 nav{
     text-align: center;
 }
-
+.text-align{
+    text-decoration: center;
+}
 img{
     display: block;
     margin-left: auto;
