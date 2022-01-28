@@ -45,3 +45,6 @@ table td{
     padding: 4px 8px;
 
 }
+table tr:nth-child(odd){
+    background: mediumaquamarine;
+}
