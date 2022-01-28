@@ -51,4 +51,5 @@ table tr:nth-child(odd){
 
 button{
     background-color: darkblue;
+    color:white;
 }
