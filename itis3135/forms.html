@@ -23,9 +23,9 @@
          </nav>
        </header>
       <main style = "color:blue">
-        <form action = "#">
+        <form action = "#" name = myform action="/action__page.php" onsubmit="return validateForm" method="post">
             <p><strong>Name:</strong></p>
-            <input type = "text" placeholder= "Enter your first and last name" size = "30" required>
+            <input type = "text" placeholder= "Enter your first and last name" size = "30" name = "fname" name = "lname"required>
 
             <p><strong> Phone Number: </strong></p>
             <input type = "text" placeholder = "Enter your phone-number" size = "30" required>
