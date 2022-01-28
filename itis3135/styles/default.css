@@ -29,12 +29,15 @@ nav{
     margin-right: auto;
     width: 25%
 }
-
+table{
+    border-collapse: collapse;
+}
 table th {
     text-align: left;
     background-color:mediumaquamarine;
    
 }
+
 table td{
     border: 1px solid #e3e3e3;
     padding: 4px 8px;
