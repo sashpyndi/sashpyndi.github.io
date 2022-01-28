@@ -29,3 +29,7 @@ nav{
     margin-right: auto;
     width: 25%
 }
+
+table{
+    border-collapse: collapse;
+}
