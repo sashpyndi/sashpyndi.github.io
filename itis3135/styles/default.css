@@ -7,6 +7,9 @@ body{
     background-color: #BEE7E8;
     
 }
+p{
+    text-align: center;
+}
 
 h1{
     text-align: center;
@@ -54,7 +57,7 @@ table th {
     text-align: left;
     border: 1px solid black;
     background-color:mediumaquamarine;
-    
+
    
 }
 
