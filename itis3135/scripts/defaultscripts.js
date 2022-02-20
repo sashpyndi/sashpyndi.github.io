@@ -5,12 +5,13 @@ function showDateAndTime(){
    let date = today.getDate();
    
 
-   let current_date = "Today is  " + month + date + year;
+
+   let current_date =  month + date + year;
 
   
    
    let dateAndTime = "Today is " +  currentdate + " on " + currentdate.getMonth() + currentdate.getDay();
-  document.getElementById(showDateAndTime).innerHTML = dateAndTime;
+  document.getElementById("showDateAndTime").innerHTML = dateAndTime;
 } 
 
 function scriptTest(){
