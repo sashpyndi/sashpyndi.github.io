@@ -4,7 +4,7 @@ function showDateAndTime(){
    currentdate.getDay();
    
    let dateAndTime = "Today is " +  currentdate + " on " + currentdate.getMonth() + currentdate.getDay();
-
+  document.write(dateAndTime);
 } 
 
 function scriptTest(){
