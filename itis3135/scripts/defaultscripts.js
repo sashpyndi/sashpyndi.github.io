@@ -1,10 +1,16 @@
 function showDateAndTime(){
-   let currentdate = new Date(); 
-   currentdate.getMonth();
-   currentdate.getDay();
+   let today = new Date(); 
+   let month = tody.getMonth()+1;
+   let year = today.getFullYear();
+   let date = today.getDate();
+   
+
+   let current_date = "Today is  " + month + date + year;
+
+  
    
    let dateAndTime = "Today is " +  currentdate + " on " + currentdate.getMonth() + currentdate.getDay();
-  document.write(dateAndTime);
+ 
 } 
 
 function scriptTest(){
