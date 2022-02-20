@@ -10,7 +10,7 @@ function showDateAndTime(){
   
    
    let dateAndTime = "Today is " +  currentdate + " on " + currentdate.getMonth() + currentdate.getDay();
- 
+  document.getElementById(showDateAndTime).innerHTML = dateAndTime;
 } 
 
 function scriptTest(){
