@@ -3,14 +3,12 @@ function showDateAndTime(){
    let month = tody.getMonth()+1;
    let year = today.getFullYear();
    let date = today.getDate();
-   
+
+   let time = today.getTime();
 
 
-   let current_date =  month + date + year;
+   let current_date =  
 
-  
-   
-   let dateAndTime = "Today is " +  currentdate + " on " + currentdate.getMonth() + currentdate.getDay();
   document.getElementById("showDateAndTime").innerHTML = dateAndTime;
 } 
 
