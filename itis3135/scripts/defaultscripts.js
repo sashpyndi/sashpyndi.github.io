@@ -11,7 +11,7 @@ function DateAndTime(){
    
    let formatTime = hour>12 ? "PM":"AM";
    
-   let dateAndTime = "Today is "+ hours + ": " + minutes +  " on "+ day + " , " + date + " " +  month + " , " + year;
+   let dateAndTime = "Today is "+ formatTime +  " on "+ day + " , " + date + " " +  month + " , " + year;
 
          
  document.getElementById("hours").innerHTML = dateAndTime;
