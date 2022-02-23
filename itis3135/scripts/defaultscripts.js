@@ -9,7 +9,7 @@ function showDateAndTime(){
 
    let current_date =  
 
-  document.getElementById("showDateAndTime").innerHTML = dateAndTime;
+  document.getElementById("DateAndTime").innerHTML = dateAndTime;
 } 
 
 function scriptTest(){
