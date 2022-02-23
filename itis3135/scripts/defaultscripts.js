@@ -1,4 +1,4 @@
-function getDateAndTime(){
+function DateAndTime(){
    let today = new Date();
    let month = today.getMonth();
    let date  = today.getDate();
