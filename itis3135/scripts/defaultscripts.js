@@ -1,6 +1,6 @@
 function showDateAndTime(){
    let today = new Date(); 
-   let month = tody.getMonth()+1;
+   let month = today.getMonth()+1;
    let year = today.getFullYear();
    let date = today.getDate();
 
