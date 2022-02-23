@@ -9,9 +9,9 @@ function DateAndTime(){
    let hours = today.getHours();
    let minutes = today.getMinutes();
    
-   let formatTime = hours>12 ? "PM":"AM";
+
    
-   let dateAndTime = "Today is "+ formatTime +  " on "+ day + " , " + date + " " +  month + " , " + year;
+   let dateAndTime = "Today is "+ hours + ": " + minutes +  " on "+ day + " , " + date + " " +  month + " , " + year;
 
          
  document.getElementById("hours").innerHTML = dateAndTime;
