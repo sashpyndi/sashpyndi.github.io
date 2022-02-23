@@ -8,7 +8,7 @@ function showDateAndTime(){
 
     let dateAndTime = "Today is " + today + month + year + date;
 
-  document.getElementById("DateAndTime").innerHTML = dateAndTime;
+  document.getElementById("DateAndTime").innerHTML = today;
 } 
 
 function scriptTest(){
