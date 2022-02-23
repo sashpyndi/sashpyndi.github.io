@@ -1,9 +1,11 @@
-function getDateandTime(){
+function getDateAndTime(){
    let today = new Date();
    let month = today.getMonth();
    let date  = today.getDate();
    let day = today.getDay();
-   let today = today.getHours();
+   let hours = today.getHours();
+         
+ document.getElementById("hours").outerHTML = hours;
 
 }
 

@@ -7,7 +7,7 @@
         <link href = "styles/default.css" type = "text/css"  rel = "stylesheet"> 
     </head>
 
-   <body>
+   <body onload = "getDateAndTime();">
       <header >
          <h1 >Sashank Pyndi  | ITIS 3135 | Salty Penguin </h1>
          <nav>
@@ -27,15 +27,7 @@
         <h2> First JS </h2>
       
         <h3 id = "hours">  </h3>
-        <script>
-         let today = new Date();
-         let month = today.getMonth();
-          let date  = today.getDate();
-         let day = today.getDay();
-         let hours = today.getHours();
-         
-         document.getElementById("hours").innerHTML = hours;
-        </script>
+     
        
        
     </main>
