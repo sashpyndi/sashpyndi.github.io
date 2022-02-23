@@ -1,6 +1,6 @@
 function DateAndTime(){
    let today = new Date();
-   let month = today.getMonth(setMonth());
+   let month = today.today.toLocaleString('default', { month: 'long' });
    let year = today.getFullYear();
    let date  = today.getDate();
    let day = today.getDay();
@@ -14,10 +14,7 @@ function DateAndTime(){
 
 }
 
-function setMonth(){
-  let arr1 = ["January" , "February", "March", "April", "May", "June", "July" , "August", "September", "October" , "November", "December"];
-  return arr1;
-}
+
 
 function scriptTest(){
    alert("Hey my script is running");
