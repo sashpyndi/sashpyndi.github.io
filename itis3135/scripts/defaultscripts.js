@@ -9,7 +9,7 @@ function DateAndTime(){
    let hours = today.getHours();
    let minutes = today.getMinutes();
    
-   let formatTime = hour>12 ? "PM":"AM";
+   let formatTime = hours>12 ? "PM":"AM";
    
    let dateAndTime = "Today is "+ formatTime +  " on "+ day + " , " + date + " " +  month + " , " + year;
 
