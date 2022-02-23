@@ -1,13 +1,16 @@
 function DateAndTime(){
    let today = new Date();
    let month = today.getMonth();
+   let year = today.getFullYear();
    let date  = today.getDate();
    let day = today.getDay();
    let hours = today.getHours();
    let minutes = today.getMinutes();
 
+   let dateAndTime = "Today is"+ hours + ":" + minutes +  'on'+ day + "," + date + month +  year;
+
          
- document.getElementById("hours").innerHTML = date;
+ document.getElementById("hours").innerHTML = dateAndTime;
 
 }
 
