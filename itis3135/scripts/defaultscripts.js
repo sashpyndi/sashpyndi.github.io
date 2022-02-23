@@ -1,6 +1,6 @@
 function DateAndTime(){
    let today = new Date();
-   let month = today.toLocaleString('default', { month: 'long' });
+   let month = today.getMonth();
    let year = today.getFullYear();
    let date  = today.getDate();
    let day = today.getDay();
