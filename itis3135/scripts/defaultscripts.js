@@ -4,8 +4,10 @@ function DateAndTime(){
    let date  = today.getDate();
    let day = today.getDay();
    let hours = today.getHours();
+   let minutes = today.getMinutes();
+
          
- document.getElementById("hours").innerHTML = hours;
+ document.getElementById("hours").innerHTML = date;
 
 }
 
