@@ -6,8 +6,7 @@ function showDateAndTime(){
 
    let time = today.getTime();
 
-
-   let current_date =  
+    let dateAndTime = "Today is " + today + month + year + date;
 
   document.getElementById("DateAndTime").innerHTML = dateAndTime;
 } 
