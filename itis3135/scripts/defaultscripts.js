@@ -5,7 +5,7 @@ function getDateAndTime(){
    let day = today.getDay();
    let hours = today.getHours();
          
- document.getElementById("hours").outerHTML = hours;
+ document.getElementById("hours").innerHTML = hours;
 
 }
 
