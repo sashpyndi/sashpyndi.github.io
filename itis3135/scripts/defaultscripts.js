@@ -14,6 +14,11 @@ function DateAndTime(){
 
 }
 
+function setMonth(){
+  let arr1 = ["January" , "February", "March", "April", "May", "June", "July" , "August", "September", "October" , "November", "December"];
+  return arr1;
+}
+
 function scriptTest(){
    alert("Hey my script is running");
 }
