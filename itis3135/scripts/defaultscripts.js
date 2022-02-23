@@ -1,12 +1,13 @@
 function DateAndTime(){
    let today = new Date();
-   let month = today.today.toLocaleString('default', { month: 'long' });
+   let month = today.toLocaleString('default', { month: 'long' });
    let year = today.getFullYear();
    let date  = today.getDate();
-   let day = today.getDay();
+   const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+   let day = weekday[today.getDay()];
    let hours = today.getHours();
    let minutes = today.getMinutes();
-
+   
    let dateAndTime = "Today is "+ hours + " : " + minutes +  " on "+ day + " , " + date + " " +  month + " , " + year;
 
          
