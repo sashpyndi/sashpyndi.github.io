@@ -16,7 +16,11 @@ function DateAndTime(){
 
 }
 
-
+function GreetingTheUser(){
+   let name  = document.getElementById("firstAndLastName").innerHTML;
+   let feeling =  document.getElementById("feeling").innerHTML;
+   console.log("Welcome to my Website" + name + "You are feeling " + feeling);
+}
 
 function scriptTest(){
    alert("Hey my script is running");

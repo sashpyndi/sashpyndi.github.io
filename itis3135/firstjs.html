@@ -27,14 +27,15 @@
         <h2> First JS </h2>
         <h3 id ="hours">  </h3>
         
-        <h3> What is your name?</h3>
-       <input type = "text" placeholder= "Enter your first and last name" size = "30" name = "fname" name = "lname"required>
+       <form action = "/action_page.php">
+         <label for ="name"> Enter your name:</label><br>
+         <input type = "text" name = "name" id = "firstAndLastName"> 
+         <label for  = "interest"> Enter your intrest</label><br>
+         <input type = "text" name = "feeling" id ="feeling"> 
 
+       </form>
        
-       <h3> How do you feel?</h3>
-       <input type = "text" placeholder= "Enter how you feel" size = "30" required>
-       
-       <button>Submit</button>
+       <button onclick= "GreetingTheUser()"  >Submit</button>
        
     </main>
       
