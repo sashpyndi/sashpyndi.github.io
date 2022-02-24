@@ -25,7 +25,12 @@ function GreetingTheUser(){
 }
  
 function randomFactGenerator(){
-   
+   const factsArray = ["Penguins may huddle together for several reasons", "penguins evolved to fly underwater", "Penguins live in many locations and habitats", "Penguins feet are adapted to walk long distances", 
+   "Male Penguins gift female penguins rocks in order to woo them"];
+
+   let fact =  factsArray[Math.floor(Math.random() * factsArray.length)];
+   document.getElementById("fact") = fact
+
 }
 
 function scriptTest(){
