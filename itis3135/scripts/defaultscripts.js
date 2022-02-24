@@ -12,9 +12,7 @@ function DateAndTime(){
 
    
    let dateAndTime = "Today is "+ hours + ": " + minutes +  " on "+ day + " , " + date + " " +  month + " , " + year;
-
-         
- document.getElementById("hours").innerHTML = dateAndTime;
+   document.getElementById("hours").innerHTML = dateAndTime;
 
 }
 
