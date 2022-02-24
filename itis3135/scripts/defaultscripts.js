@@ -29,7 +29,7 @@ function randomFactGenerator(){
    "Male Penguins gift female penguins rocks in order to woo them"];
 
    let fact =  factsArray[Math.floor(Math.random() * factsArray.length)];
-   document.getElementById("fact") = fact
+   document.getElementById("fact").innerHTML = fact
 
 }
 
