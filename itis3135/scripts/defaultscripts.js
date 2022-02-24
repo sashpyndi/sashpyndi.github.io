@@ -17,9 +17,15 @@ function DateAndTime(){
 }
 
 function GreetingTheUser(){
-   let name  = document.getElementById("firstAndLastName").innerHTML;
-   let feeling =  document.getElementById("feeling").innerHTML;
-   console.log("Welcome to my Website" + name + "You are feeling " + feeling);
+   let name  = document.getElementById("firstAndLastName").value;
+   let feeling =  document.getElementById("feeling").value;
+    
+   let prompt = "The Sashpyndi Industries Welcomes You, " + name + "! " + " Were glad you are doing " + feeling;
+   document.getElementById( "textToDisplayUser").innerHTML = prompt;
+}
+ 
+function randomFactGenerator(){
+   
 }
 
 function scriptTest(){
