@@ -29,12 +29,22 @@ function randomFactGenerator(){
    "Male Penguins gift female penguins rocks in order to woo them"];
 
    let fact =  factsArray[Math.floor(Math.random() * factsArray.length)];
-   document.getElementById("fact").innerHTML = fact
+   document.getElementById("fact").innerHTML = fact;
 
 }
 
 function scriptTest(){
    alert("Hey my script is running");
+}
+
+function addNumber(){
+   let num1 = document.getElementById("firstNumber").value;
+   let num2 = document.getElementById("secondNumber").value;
+    
+   let sum = num1+num2;
+
+   document.getElementById("sum").innerHTML = sum;
+
 }
 
 onclick = "scriptTest();"
