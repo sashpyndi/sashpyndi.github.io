@@ -43,7 +43,37 @@ function addNumber(){
     
    const sum = num1+num2;
 
-   document.getElementById("sum").innerHTML = sum;
+   document.getElementById("endResult").innerHTML = sum;
+
+}
+
+function subtractNumber(){
+   let num1 = document.getElementById("firstNumber").value;
+   let num2 = document.getElementById("secondNumber").value;
+    
+   const difference = num1-num2;
+
+   document.getElementById("endResult").innerHTML = difference;
+
+}
+
+function multiplyNumber(){
+   let num1 = document.getElementById("firstNumber").value;
+   let num2 = document.getElementById("secondNumber").value;
+    
+   const product = num1*num2;
+
+   document.getElementById("endResult").innerHTML = product;
+
+}
+
+function divideNumber(){
+   let num1 = document.getElementById("firstNumber").value;
+   let num2 = document.getElementById("secondNumber").value;
+    
+   const quotient = num1/num2;
+
+   document.getElementById("endResult").innerHTML = quotient;
 
 }
 
