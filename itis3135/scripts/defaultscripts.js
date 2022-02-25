@@ -41,7 +41,7 @@ function addNumber(){
    let num1 = document.getElementById("firstNumber").value;
    let num2 = document.getElementById("secondNumber").value;
     
-   let sum = num1+num2;
+   const sum = num1+num2;
 
    document.getElementById("sum").innerHTML = sum;
 
