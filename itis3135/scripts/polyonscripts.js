@@ -1,3 +1,4 @@
 function popUpMessage(){
-    alert(" The Salty Penguin would like your number between 1-10");
+    window.alert(" The Salty Penguin would like your number between 1-10");
 }
+
