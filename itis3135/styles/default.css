@@ -77,6 +77,15 @@ button{
     background-color: darkblue;
     color:white;
     min-width:120px;
+
+}
+
+#validatorButton{
+    text-align: center;
+    position: fixed;
+    margin: auto;
+    display: flex;
+    display: grid;
 }
 
 input{
