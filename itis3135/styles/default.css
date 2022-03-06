@@ -31,6 +31,9 @@ a{
     color: black;
     font-family: Mochiy;
 }
+ul{
+    margin-left: 100px;
+}
 main{
     color: blue;
 }
@@ -45,8 +48,8 @@ nav{
 
 .center{
     display: block;
-    margin-left: 75px;
-    margin-right: 75px;
+    margin-left: 550px;
+    margin-right: 100px;
     margin-top: 75px;
     margin-bottom: 75px;
     width: 25%
@@ -80,13 +83,6 @@ button{
 
 }
 
-#validatorButton{
-    text-align: center;
-    position: fixed;
-    margin: auto;
-    display: flex;
-    display: grid;
-}
 
 input{
     background-color: darkblue;
