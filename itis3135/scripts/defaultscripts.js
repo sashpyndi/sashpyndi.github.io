@@ -21,7 +21,7 @@ function GreetingTheUser(){
    let feeling =  document.getElementById("feeling").value;
     
    let prompt = "The Sashpyndi Industries Welcomes You, " + name + "! " + " Were glad you are doing " + feeling;
-   document.getElementById( "textToDisplayUser").innerHTML = prompt;
+   document.getElementById("textToDisplayUser").innerHTML = prompt;
 }
  
 function randomFactGenerator(){
