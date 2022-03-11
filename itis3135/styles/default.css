@@ -6,6 +6,7 @@ body{
     font-family:  sans-serif;
     background-color: #BEE7E8;
     
+
 }
 p{
     text-align: center;
@@ -35,7 +36,8 @@ ul{
     margin-left: 100px;
 }
 ol{
-    margin-left: 100px;
+    margin-left: 500px;
+    
 }
 main{
     color: blue;
@@ -60,7 +62,7 @@ nav{
 table{
     border: 1px solid black;
     border-collapse: collapse;
-    margin-left: 300px;
+   
      
 }
 table th {
@@ -84,13 +86,38 @@ button{
     background-color: darkblue;
     color:white;
     min-width:120px;
+    margin-left: 600px;
 
 }
-
+.caption{
+    margin-top: 1px;
+    
+}
+.image{
+    margin-bottom: 1px;
+}
 
 input{
     background-color: darkblue;
     color:white;
     text-align: center;
+    margin-left:600px;
 }
+
+.tableAlign{
+   margin-left: 300px;
+
+}
+.tableAlign2{
+    margin-left: 500px;
+ 
+ }
+ .polygonGenerator{
+     background-color: #B3B6B7;
+   
+ }
+
+ figcaption{
+     text-align:center;
+ }
 
