@@ -114,10 +114,25 @@ input{
  }
  .polygonGenerator{
      background-color: #B3B6B7;
+  
    
  }
 
  figcaption{
      text-align:center;
  }
+ .calculator-screen{
+     width: 50%;
+     font-size: 5rem;
+     height: 80px;
+     border: none;
+     background-color: purple;
+     color: blue;
+     text-align: right;
+     padding-right: 0px;
+     padding-left: 20px;
+     display: inline-block;
+ }
+
+
 
