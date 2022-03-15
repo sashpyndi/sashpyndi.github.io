@@ -17,17 +17,13 @@ h1{
     font-family: 'Mochiy';
     color:blue;
 }
-h2{
+h2,h3{
    text-align: center;
     color: darkblue;
    font-family: 'Mochiy'
     
 }    
-h3{
-    text-align: center;
-    color: darkblue;
-    font-family: 'Mochiy';
-}
+
 a{
     color: black;
     font-family: Mochiy;
@@ -87,6 +83,7 @@ button{
     color:white;
     min-width:120px;
     margin-left: 600px;
+    display: inline-block;
 
 }
 .caption{
@@ -121,18 +118,79 @@ input{
  figcaption{
      text-align:center;
  }
- .calculator-screen{
-     width: 50%;
-     font-size: 5rem;
-     height: 80px;
-     border: none;
-     background-color: purple;
-     color: blue;
-     text-align: right;
-     padding-right: 0px;
-     padding-left: 20px;
-     display: inline-block;
+ .lowerFooterMargin{
+     margin-bottom: 500px;
  }
+ 
+ /* everything below is for the calculator*/
+ 
+.container{
+    max-width:20em;
+}
+.container>p{
+    text-align:center;
+
+}
+.calculator{
+    border: radius 12px;box-shadow: 0 0 40px 0px rgba(0,0,0,0,15);
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 2em;
+    max-width: 15em;
+    overflow:hidden;
+}
+.calculator__display{
+    background-color: #222222;
+    color: #fff;
+    font-size:1.714285714em;
+    padding:0.5em 0.75em;
+    text-align: right;
+    margin-left: 350px;
+    margin-right: 450px;
+    margin-top: 50px;
+
+}
+
+.calculator__keys> {
+    background: color #999;
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.calculator__keys > * {
+    background-color: #fff;
+    padding: 0.5em 1.25em;
+    position: relative;
+    text-align: center;
+}
+
+
+.calculator__keys>*:active::before,
+.calculator__keys > .is-depressed::before{
+    background-color: rgba(0,0,0,0.5);
+    bottom: 0;
+    content: "";
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.5);
+     content: "";
+     left: 0;
+     opacity: 0.3;
+     position: absolute;
+     right: 0;
+     top: 0;
+     z-index: 1;
 
 
 
+}
+
+.key--operator{
+    background-color: #eee;
+}
+
+.key--equal{
+    background-image: linear-gradient(to bottom, #fe886a, #ff7033);
+    grid-column:-2;
+    grid-row: 2 / span 4;
+
+}

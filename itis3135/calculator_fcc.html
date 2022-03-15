@@ -23,75 +23,24 @@
          <a href=firstjs.html> <strong>First JS |</strong></a>
          <a href=polygon.html><strong>Polygon |</strong></a>
          <a href=calculator_try.html><strong>Calculator Try |</strong></a>
+         <a href=calculator_fcc.html><strong> Calculator FCC</strong></a>
          <a href=array.html><strong> Array</strong></a>
       </nav>
    </header>
    <main>
 
-      <form action="/action_page.php">
-         <label for="firstNumber"> Enter a number:</label><br>
-         <input type="text" name="number" id="firstNumber">
-         <label for="secondNumber"> Enter another number</label><br>
-         <input type="text" name="number" id="secondNumber">
+      <div class=”calculator”>
+        <div class = "calculator__display">0</div>
+        <div class = "calculator__keys">
+           <button class = "key--operator" data-action = "add">+</button>
+           <button class = "key--operator" data-action = "subtract">-</button>
+           <button class = "key--operator" data-action = "multiply">&times</button>
+           <button class = "key--operator" data-action = "divide">÷</button>
+        </div>
 
-      </form>
-
-      <button onclick = "addNumber()"> Add </button>
-      <button onclick = "subtractNumber()"> Subtract </button>
-      <button onclick = "multiplyNumber()"> Multiply </button>
-      <button onclick = "divideNumber()"> Divide </button>
-
-
-
-      <h3 id=endResult></h3>
-
-
-
-      <script>
-         function addNumber() {
-            let num1 = document.getElementById("firstNumber").value;
-            let num2 = document.getElementById("secondNumber").value;
-
-            const sum = "The sum is " + (num1 + num2);
-
-            document.getElementById("endResult").innerHTML = sum;
-
-         }
-
-         function subtractNumber() {
-            let num1 = document.getElementById("firstNumber").value;
-            let num2 = document.getElementById("secondNumber").value;
-
-            const difference = "The difference is " + (num1 - num2);
-
-            document.getElementById("endResult").innerHTML = difference;
-
-         }
-
-         function multiplyNumber() {
-            let num1 = document.getElementById("firstNumber").value;
-            let num2 = document.getElementById("secondNumber").value;
-
-            const product = " The product is " + (num1 * num2);
-
-            document.getElementById("endResult").innerHTML = product;
-
-         }
-
-         function divideNumber() {
-            let num1 = document.getElementById("firstNumber").value;
-            let num2 = document.getElementById("secondNumber").value;
-
-            const quotient = "The quotient is " + (num1 / num2);
-
-            document.getElementById("endResult").innerHTML = quotient;
-
-         }
-
-
-
-      </script>
-
+    </div>
+    
+      
 
    </main>
 
