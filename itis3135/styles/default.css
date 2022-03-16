@@ -83,7 +83,6 @@ button{
     color:white;
     min-width:120px;
     margin-left: 600px;
-    display: inline-block;
 
 }
 .caption{
@@ -121,7 +120,23 @@ input{
  .lowerFooterMargin{
      margin-bottom: 500px;
  }
- 
+ .alignAddSalaryButton{
+
+    margin-top: 100px;
+    margin-left: 40px;
+
+ }
+ .alignDisplayResultsButton{
+    margin-top: 100px;
+    margin-left: 100px;
+
+ }
+ .alignDisplaySalaryButton{
+    margin-top: 100px;
+    margin-left: 60px;
+
+ }
+
  /* everything below is for the calculator*/
  
 .container{
