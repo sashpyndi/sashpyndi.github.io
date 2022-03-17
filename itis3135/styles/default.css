@@ -87,7 +87,10 @@ button{
 
 }
 .forms{
+    margin-left: 300px;
     background-color: yellow
+    
+
 }
 .caption{
     margin-top: 1px;
