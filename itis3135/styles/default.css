@@ -9,7 +9,7 @@ body{
 
 }
 p{
-    text-align: center;
+    text-align: left;
 }
 
 h1{
@@ -84,6 +84,9 @@ button{
     min-width:120px;
     margin-left: 600px;
 
+}
+.forms{
+    background-color: yellow
 }
 .caption{
     margin-top: 1px;
