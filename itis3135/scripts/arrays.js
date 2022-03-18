@@ -16,7 +16,7 @@ function addSalary(){
 
 function displaySalary(){
     let table = '<table class = center<tr><td>Employee Name</td><td>Salary</td></tr>';
-
+    
 
 
   
