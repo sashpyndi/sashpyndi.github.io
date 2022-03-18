@@ -34,5 +34,10 @@ function displaySalary(){
 }
 
 function displayResults(){
+     let avg;
+     let highestSalary;
+     let highestSalaryPerson;
+    
+     
 
 }
