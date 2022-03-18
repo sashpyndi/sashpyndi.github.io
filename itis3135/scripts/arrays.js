@@ -7,7 +7,7 @@ function addSalary(){
       if(isNaN(salary)){
         window.alert("Sorry, enter a number");
       }
-      else if(salary = ""){
+      else if(salary == ""){
         window.alert("Please Enter your salary");
       }
       else{
@@ -16,8 +16,7 @@ function addSalary(){
       let person = document.getElementById("name").value;
       persons.push(person);
      
-     /* let statement = person + " has a salary of $" + salary;
-      document.getElementById("income").innerHTML = statement;*/
+    
       
  
 
