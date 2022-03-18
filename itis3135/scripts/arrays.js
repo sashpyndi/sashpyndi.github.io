@@ -2,14 +2,21 @@ const persons = [];
 const salaries = [];
 
 function addSalary(){
+
       let salary = document.getElementById("salary").value;
-       salaries.push(salary);
+      if(isNaN(salary)){
+        window.alert("Sorry, enter a number");
+      }
+      else if(salary = ""){
+          window.alert("Sorry, entry required");
+      }
+      else{
+        salaries.push(salary);
+      }
       let person = document.getElementById("name").value;
       persons.push(person);
      
-      let statement = person + " has a salary of $" + salary;
-      document.getElementById("income").innerHTML = statement;
-      
+     
  
 
 }
@@ -23,7 +30,7 @@ function displaySalary(){
     
     table +="</table>";
     
-    document.getElementById("results_Table").innerHTML = table;
+    document.getElementById("results_table").innerHTML = table;
 
   
    
