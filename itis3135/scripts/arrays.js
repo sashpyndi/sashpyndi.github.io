@@ -16,8 +16,14 @@ function addSalary(){
 
 function displaySalary(){
     let table = '<table class = center<tr><td>Employee Name</td><td>Salary</td></tr>';
+     
+    for( i = 0; i<salaries.length; i++){
+         table+="<tr><td>"+persons[i]+"</td><td>"+salaries[i]+"</td></tr>";
+    }
     
-
+    table +="</table>";
+    
+    document.getElementById("results_Table").innerHTML = table;
 
   
    
