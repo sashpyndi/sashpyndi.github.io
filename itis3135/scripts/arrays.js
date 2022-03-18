@@ -38,6 +38,16 @@ function displayResults(){
      let highestSalary;
      let highestSalaryPerson;
     
+     for( i = 0; i<salaries.length; i++) {
+       if(salaries[i]>salaries[i+1]) {
+          highestSalary = salaries[i];
+          document.getElementById("results").innerHTML = highestSalary;
+       }
+       else{
+           highestSalary = salaries[i+1];
+           document.getElementById("results").innerHTML = highestSalary;
+       }
+     }
      
-
+  
 }
