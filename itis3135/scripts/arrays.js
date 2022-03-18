@@ -8,7 +8,7 @@ function addSalary(){
         window.alert("Sorry, enter a number");
       }
       else if(salary = ""){
-          window.alert("Sorry, entry required");
+        window.alert("Please Enter your salary");
       }
       else{
         salaries.push(salary);
@@ -16,7 +16,9 @@ function addSalary(){
       let person = document.getElementById("name").value;
       persons.push(person);
      
-     
+     /* let statement = person + " has a salary of $" + salary;
+      document.getElementById("income").innerHTML = statement;*/
+      
  
 
 }
