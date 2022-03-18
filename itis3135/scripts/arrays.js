@@ -7,7 +7,7 @@ function addSalary(){
       let person = document.getElementById("name").value;
       persons.push(person);
      
-      let statement = person + " has a salary of " + salary;
+      let statement = person + " has a salary of $" + salary;
       document.getElementById("income").innerHTML = statement;
       
  
