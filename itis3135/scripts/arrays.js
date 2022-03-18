@@ -15,11 +15,7 @@ function addSalary(){
       }
       let person = document.getElementById("name").value;
       persons.push(person);
-     
     
-      
- 
-
 }
 
 function displaySalary(){
