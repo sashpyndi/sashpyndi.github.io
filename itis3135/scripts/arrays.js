@@ -4,6 +4,7 @@ const salaries = [];
 function addSalary(){
 
       let salary = document.getElementById("salary").value;
+      let person = document.getElementById("name").value;
       if(isNaN(salary)){
         window.alert("Sorry, enter a number");
       }
@@ -12,9 +13,10 @@ function addSalary(){
       }
       else{
         salaries.push(salary);
+        persons.push(person);
       }
-      let person = document.getElementById("name").value;
-      persons.push(person);
+     
+ 
     
 }
 
