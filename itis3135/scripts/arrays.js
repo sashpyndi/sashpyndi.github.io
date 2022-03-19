@@ -37,17 +37,26 @@ function displayResults(){
      let avg;
      let highestSalary;
      let highestSalaryPerson;
-    
-     for( i = 0; i<salaries.length; i++) {
-       if(salaries[i]>salaries[i+1]) {
-          highestSalary = salaries[i];
-          document.getElementById("results").innerHTML = highestSalary;
-       }
-       else{
-           highestSalary = salaries[i+1];
-           document.getElementById("results").innerHTML = highestSalary;
-       }
-     }
+     let total;
      
-  
+
+    
+     for(i=0; i<salaries.length; i++){
+         total +=salaries[i];
+     }
+
+     avg = total/salaries.length;
+     document.getElementById()
+   for(i=0; i<salaries.length; i++){
+     if(salaries[i]>salaries[i+1]){
+         highestSalary = salaries[i];
+         highestSalaryPerson = persons[i];
+     }
+     else{
+         highestSalary = salaries[i+1];
+         highestSalaryPerson = persons[i+1];
+     }
+   }
+   document.getElementById("results").innerHTML = "The highest paid employee is " +  highestSalaryPerson + " with a salary of " + highestSalary 
+   " The average of all the employees is   " + avg;
 }
