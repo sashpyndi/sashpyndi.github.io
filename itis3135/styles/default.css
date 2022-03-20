@@ -76,13 +76,9 @@ figure{
     text-align: center;
 }
 
-.center{
-    display: block;
-    margin-left: 550px;
-    margin-right: 100px;
-    margin-top: 75px;
-    margin-bottom: 75px;
-    width: 25%
+.centerImage{
+    margin-left: 35%;
+    margin-right: 35%
 }
 .tableCenter{
     margin-left: 100px;
@@ -137,7 +133,7 @@ input[type = "text"]{
     background-color: darkblue;
     color:white;
 
-    text-align: center;
+    text-align: left;
     margin-top: auto;
     margin-bottom: auto;
     margin-left:  30%;
