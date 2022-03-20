@@ -15,14 +15,14 @@ function DateAndTime(){
    document.getElementById("hours").innerHTML = dateAndTime;
 
 }
+function greetingTheUser(){
+   let name = document.getElementById("name").value;
+   let feeling = document.getElementById("feeling").value;
 
-function GreetingTheUser(){
-   let name  = document.getElementById("firstAndLastName").value;
-   let feeling =  document.getElementById("feeling").value;
-    
-   let prompt = "The Sashpyndi Industries Welcomes You, " + name + "! " + " Were glad you are doing " + feeling;
+   let prompt= "The Sashpyndi Industries Welcomes You " + name + ". You are feeling "+ feeling;
    document.getElementById("textToDisplayUser").innerHTML = prompt;
 }
+
  
 function randomFactGenerator(){
    const factsArray = ["Penguins may huddle together for several reasons", "penguins evolved to fly underwater", "Penguins live in many locations and habitats", "Penguins feet are adapted to walk long distances", 

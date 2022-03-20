@@ -29,25 +29,27 @@
       </nav>
    </header>
    <main>
-
+      <div id = "forms">
       <form action="/action_page.php">
          <label for="firstNumber"> Enter a number:</label><br>
-         <input type="text" name="number" id="firstNumber">
+         <input type="text" name="number" id="firstNumber"><br><br>
          <label for="secondNumber"> Enter another number</label><br>
          <input type="text" name="number" id="secondNumber">
 
       </form>
-
+      <div class = "divider">
+      <div id="contains">
       <button onclick = "addNumber()"> Add </button>
       <button onclick = "subtractNumber()"> Subtract </button>
       <button onclick = "multiplyNumber()"> Multiply </button>
       <button onclick = "divideNumber()"> Divide </button>
-
+      </div>
+   </div>
 
 
       <h3 id=endResult></h3>
 
-
+   </div>
 
       <script>
          function addNumber() {
