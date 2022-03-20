@@ -6,11 +6,11 @@ function popUpMessage() {
 function validateEntry(numberOfSides) {
 
     if (isNaN(numberOfSides)) {
-        alert("Sorry, not a number Please enter a number between 1-10");
+        alert("Sorry, not a number. Please enter a number between 1-10");
         popUpMessage();
     }
     if (numberOfSides == "") {
-        alert("Sorry, not a number Please enter a number between 1-10");
+        alert("Sorry, not a number. Please enter a number between 1-10");
         popUpMessage();
 
     }
@@ -27,7 +27,7 @@ function validateEntry(numberOfSides) {
     }
 }
 function getShape(nums) {
-
+ 
     switch (nums) {
         case 1:
             alert("Thats a henagon");
@@ -56,8 +56,12 @@ function getShape(nums) {
         case 9:
             alert("thats is a nonagon");
             break;
+        case 10:
+            alert("thats a decagon")
+            break;
         default:
-            alert("Thats is a decagon");
+            alert(" Sorry, not a number. Please enter a number between 1-10");
+            popUpMessage();
     }
 
 }
