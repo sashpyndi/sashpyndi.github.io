@@ -8,7 +8,7 @@ body{
     
 
 }
-.forms{
+#forms{
     text-align: center;
     font-family: sans-serif;
     background-color: yellow;
@@ -98,8 +98,8 @@ button{
     background-color: darkblue;
     color:white;
     min-width:120px;
-    margin-left: 600px;
-    margin-right:600px;
+    margin-left: 40%;
+    margin-right:40%;
 
 }
 
@@ -112,11 +112,17 @@ button{
 }
 
 
-input[type ="text"]{
+
+input[type = "text"]{
     background-color: darkblue;
     color:white;
-    margin-left:600px;
+
     text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left:  30%;
+    margin-right: 30%;
+
 }
 
 .tableAlign{
