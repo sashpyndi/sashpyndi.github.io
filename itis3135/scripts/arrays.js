@@ -45,8 +45,8 @@ function displayResults(){
      }
     
    }
-   document.getElementById("results").innerHTML = "The highest paid employee is " +  highestSalaryPerson + " with a salary of " + highestSalary +
-   " The average of all the employees is   " + avg;
+   document.getElementById("results").innerHTML = "The highest paid employee is " +  highestSalaryPerson + " with a salary of $" + highestSalary +
+   " The average of all the employees is  $ " + avg;
 }
 function displaySalary(){
     let table = '<table class = center<tr><td>Employee Name</td><td>Salary</td></tr>';

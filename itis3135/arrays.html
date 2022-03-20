@@ -31,6 +31,7 @@
    <main>
           
           <h2><strong>Arrays</strong></h2>
+          <div id = "forms">
           <label for = "name">Select Your Name below:</label>
           <select name = "EmployeeName" id = "name">
           <option value = "Sashank Pyndi"> Sashank Pyndi </option>
@@ -40,18 +41,27 @@
           <option value = "William McCoy"> William McCoy </option>
           <option value = "Nazir Naheem"> Nazir Naheem </option>
        </select>
+       <br>
+       <br>
            <form action = "/action_page.php">
               <label for=" salary">Enter Salary</label>
               <input type = "text" id = "salary" name = "salary">
            </form>
-           
+           <br>
+           <br>
+          <div id = "contains">
            <button onclick = "addSalary()">Add Salary </button>
            <button onclick = "displaySalary()">Display Salary</button>
            <button onclick = "displayResults()"> Display Results</button>
+         </div>
+         <br>
+         <br>
            <div id = "results"></div>
            
-          
+          <div class = "tableCenter">
             <div id = "results_table"></div>
+         </div>
+         </div>
 
    </main>
 

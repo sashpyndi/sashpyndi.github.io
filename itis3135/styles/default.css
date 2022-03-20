@@ -84,6 +84,10 @@ figure{
     margin-bottom: 75px;
     width: 25%
 }
+.tableCenter{
+    margin-left: 100px;
+    margin-right: 100px;
+}
 table{
     border: 1px solid black;
     border-collapse: collapse;
