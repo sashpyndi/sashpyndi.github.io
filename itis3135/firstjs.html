@@ -31,41 +31,48 @@
     <main >
         <h2> First JS </h2>
         <h3 id ="hours">  </h3>
-        
+        <div id= "forms">
+      <h3> Welcome to your First JavaScript!!!</h3>
        <form action = "/action_page.php">
          <label for ="name"> Enter your name:</label><br>
-         <input type = "text" name = "name" id = "name"> 
+         <input type = "text" name = "name" id = "name"> <br><br>
          <label for  = "feeling"> Enter how you feel today!</label><br>
          <input type = "text" name = "feeling" id ="feeling"> 
-
+         
        </form>
+       <div class = "divider">
+       <div id = "container">
        <button  onclick= "scriptTest()">Script Test</button>
        <button  onclick= "GreetingTheUser()"  >Submit</button>
+      </div>
        <h3 id = "textToDisplayUser"></h3>
+      </div>
 
       <h3> Click to Hear a Penguin Fact</h3> 
         
        <button onclick = "randomFactGenerator()"> Fact About Penguins</button>
        
        <h3 id = "fact"></h3>
-    
+    <div class = "divider">
        <form action = "/action_page.php">
          <label for ="firstNumber"> Enter a number:</label><br>
-         <input type = "text" name = "number" id = "firstNumber"> 
+         <input type = "text" name = "number" id = "firstNumber"><br><br>
          <label for  = "secondNumber"> Enter another number</label><br>
-         <input type = "text" name = "number" id ="secondNumber"> 
-
+         <input type = "text" name = "number" id ="secondNumber"><br><br>
+    
        </form>
-       
+       <br>
+       <br>
+      <div id = "contains">
        <button onclick = "addNumber()"> Add </button>
        <button onclick = "subtractNumber()"> Subtract </button>
        <button onclick = "multiplyNumber()"> Multiply </button>
        <button onclick = "divideNumber()"> Divide </button>
-
+      </div>
 
        <h3 id = "endResult"></h3>
-      
-
+      </div>
+      </div>
        
 
        

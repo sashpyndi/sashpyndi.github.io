@@ -31,6 +31,9 @@
    
        <form action="#"> 
           <div id = "forms">
+            <label><strong>Enter you credentials:</strong></label>
+          <div class = "divider">
+         
             <label><strong>Name:</strong></label>
             <br>
             
@@ -47,11 +50,9 @@
             <br>
             <input type = "text" placeholder = "Enter your email-address" size = "30"   required>
             
-          <br>
-          <br>
-          <br>
-      
-         
+           </div>
+          
+           <div class = "divider">
          <label><strong>Select your Operating System of Preference: </strong></label><br>
 
             <label for = "Mac">
@@ -63,10 +64,9 @@
             <label for = "Ubuntu">
                <input id = "Ubuntu" type = "radio" name = "mac-windows-ubuntu"   required>Ubuntu
             </label>
-        <br>
-        <br>
+         </div>
       
-      
+      <div class = "divider">
       <label><strong> Select a list of Sports you like: </strong></label><br>
        <label for = "basketball">
           <input id = "basketball" type = "checkbox" name = "Sports"    required> Basketball
@@ -83,8 +83,7 @@
       <label for = "tennis">
          <input id = "tennis" type = "checkbox" name = "Sports"  required> Tennis
       </label>
-      <br>
-      <br>
+   </div>
       
      
      
@@ -101,8 +100,12 @@
 
        <br>
        <br>
-      <button type = "reset"  class = "greyButton">Reset</button>
-      <button type = "submit" class = "greyButton">Submit</button>
+       <br>
+       <br>
+      <div id = "container">
+      <button id = "button1" type = "reset"  class = "greyButton">Reset</button>
+      <button id = "button2" type = "submit" class = "greyButton">Submit</button>
+      </div>
       </div>
       </form>
   

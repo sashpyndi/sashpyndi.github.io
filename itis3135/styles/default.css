@@ -15,12 +15,25 @@ body{
     border-style:solid;
     margin-left:30%;
     margin-right:30%;
-    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
 
 }
 
+#container{
+    display:flex;
+    width: 30px;
+    margin-left:30%;
+    margin-right:30%
+}
 
+#contains{
+    display:flex;
+    width: 30px;
+    margin-left:1px;
+    margin-right:1px;
+}
 p{
     text-align: left;
 }
@@ -102,6 +115,9 @@ button{
     margin-right:40%;
 
 }
+#button1,#button2{
+    display:inline-block;
+}
 
 .caption{
     margin-top: 1px;
@@ -122,8 +138,13 @@ input[type = "text"]{
     margin-bottom: auto;
     margin-left:  30%;
     margin-right: 30%;
-
+  
 }
+.divider{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 
 .tableAlign{
    margin-left: 300px;
