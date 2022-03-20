@@ -8,6 +8,18 @@ body{
     
 
 }
+.forms{
+    text-align: center;
+    font-family: sans-serif;
+    background-color: yellow;
+    border-style:solid;
+    margin-left:30%;
+    margin-right:30%;
+    padding: 20px;
+
+
+}
+
 
 p{
     text-align: left;
@@ -47,6 +59,9 @@ nav{
 .text-align{
     text-align: center;
 }
+figure{
+    text-align: center;
+}
 
 .center{
     display: block;
@@ -84,15 +99,10 @@ button{
     color:white;
     min-width:120px;
     margin-left: 600px;
+    margin-right:600px;
 
 }
-.forms{
-    margin-left: 500px;
-    margin-right: 500px;
-    background-color: yellow
-    
 
-}
 .caption{
     margin-top: 1px;
     
@@ -101,11 +111,12 @@ button{
     margin-bottom: 1px;
 }
 
-input{
+
+input[type ="text"]{
     background-color: darkblue;
     color:white;
-    text-align: center;
     margin-left:600px;
+    text-align: center;
 }
 
 .tableAlign{
@@ -122,9 +133,6 @@ input{
    
  }
 
- figcaption{
-     text-align:center;
- }
  .lowerFooterMargin{
      margin-bottom: 500px;
  }
