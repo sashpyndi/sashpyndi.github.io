@@ -27,7 +27,7 @@ body{
 
 }
 #forms{
-    text-align: center;
+  
     font-family: sans-serif;
     background-color: yellow;
     border-style:solid;
@@ -91,9 +91,7 @@ nav{
     color: darkred;
        
 }
-.text-align{
-    text-align: center;
-}
+
 figure{
     text-align: center;
 }
