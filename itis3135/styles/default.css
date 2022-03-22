@@ -26,6 +26,7 @@ body{
     
 
 }
+
 #forms{
   
     font-family: sans-serif;
@@ -149,7 +150,7 @@ button{
 
 label{
     color:maroon;
-    text-align:center;
+    text-align: center;
 }
 
 input[type = "text"]{
