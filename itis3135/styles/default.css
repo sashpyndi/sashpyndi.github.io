@@ -31,12 +31,14 @@ body{
 #forms{
   
     font-family: sans-serif;
-    background-color: yellow;
+    background-color: #FDE74C;
     border-style:solid;
     margin-left:30%;
     margin-right:30%;
     padding-top: 50px;
     padding-bottom: 50px;
+    text-align:center;
+    color:maroon;
 
 
 }
@@ -96,11 +98,13 @@ nav{
 
 figure{
     text-align: center;
+    color:darkblue;
+    font-style: italic;
 }
 
 .centerImage{
-    margin-left: 35%;
-    margin-right: 35%
+    margin-left: 30%;
+    margin-right: 30%
 }
 .tableCenter{
     margin-left: 100px;
@@ -123,6 +127,7 @@ table th {
 table td{
     border: 1px solid black;
     padding: 4px 8px;
+    text-align:left;
 
 }
 table tr:nth-child(odd){
@@ -145,14 +150,13 @@ button{
     margin-top: 1px;
     
 }
+
 .image{
     margin-bottom: 1px;
 }
 
-label{
-    text-align:right;
-    color:maroon;
-}
+
+
 
 input[type = "text"]{
     background-color: darkblue;
@@ -203,5 +207,8 @@ input[type = "text"]{
     margin-top: 100px;
     margin-left: 60px;
 
+ }
+ .valdiationButtons{
+     text-decoration:none;
  }
 
