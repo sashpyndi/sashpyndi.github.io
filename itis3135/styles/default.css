@@ -27,6 +27,7 @@ body{
 
 }
 
+
 #forms{
   
     font-family: sans-serif;
@@ -149,8 +150,8 @@ button{
 }
 
 label{
+    text-align:right;
     color:maroon;
-    text-align: center;
 }
 
 input[type = "text"]{
