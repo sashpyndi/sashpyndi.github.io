@@ -38,12 +38,12 @@ function scriptTest(){
 }
 
 function addNumber(){
-   let num1 = document.getElementById("firstNumber").value;
-   let num2 = document.getElementById("secondNumber").value;
+   const num1 = parseInt(document.getElementById("firstNumber").value);
+   const num2 = parseInt(document.getElementById("secondNumber").value);
     
-   const sum = num1+num2;
+   
 
-   document.getElementById("endResult").innerHTML = sum;
+   document.getElementById("endResult").innerHTML = num1+num2;
 
 }
 
