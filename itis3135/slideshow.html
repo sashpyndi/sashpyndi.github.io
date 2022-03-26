@@ -1,54 +1,61 @@
 <!DOCTYPE html>
-<html lang = "en-US">
- 
-    <head>
-       <meta charset ="utf-8">
-       <title>Sashank Pyndi  | ITIS 3135 | Salty Penguin | Slideshow</title>
-        <link href = "styles/default.css" type = "text/css"  rel = "stylesheet"> 
-    </head>
+<html lang="en-US">
 
-   <body>
+<head>
+    <meta charset="utf-8">
+    <title>Sashank Pyndi | ITIS 3135 | Salty Penguin | Slideshow</title>
+    <link href="styles/default.css" type="text/css" rel="stylesheet">
+    <script src="jquery-3.6.0min.js"></script>
+</head>
 
-       <div data-include="components/header.html"></div>
+<body>
 
-      <main >
+    <div data-include="components/header.html"></div>
+
+    <main>
         <h1>Slideshow</h1>
-         
-         <div class = "slider">
-            <figure>
-                <img src = "images/IMG_3882.JPG" alt = "View of Venice" width = "504" height = "378">
-        
-           
-            <figure>
-                <img src = "images/IMG_9185.JPG" alt = "View of St Marx Square" width = "504" height = "378">
-          </figure>
-            <figure>
-                <img src = "images/IMG_9279.jpg" alt = "Pic of me" width = "504" height = "378">
-         
-               
-             </figure>
-            <figure>
-                <img src = "images/IMG_9311.jpeg" alt = "Collessum" width = "504" height = "378">
-     
-               
-            </figure>
-            <figure>
-                <img src = "images/IMG_9396.jpg" alt = "Me Drinking Coca Cola" width = "504" height = "378">
-               
-            </figure>
-            <figure>
-                <img src = "images/IMG_9443.JPG" alt = "Me in Front of the Street" width = "504" height = "378">
-          
-               
-            </figure>
-          
-         </div>
-      </main>
-      
-         <div data-include="components/footer.html"></div>
-         <script src = "jquery-3.6.0min.js"></script>
-         <script src = "scripts/HTMLInclude.js"></script>
 
-      
-   </body>
+        <div class="slider">
+            <div class="slider-out">
+                <div class="slider-in">
+                    <figure>
+                        <img src="images/IMG_3882.JPG" alt="View of Venice" width="504" height="378" class = "activeImage">
+
+                    </figure>
+                    <figure>
+                        <img src="images/IMG_9185.JPG" alt="View of St Marx Square" width="504" height="378">
+                    </figure>
+                    <figure>
+                        <img src="images/IMG_9279.jpg" alt="Pic of me" width="504" height="378">
+
+
+                    </figure>
+                    <figure>
+                        <img src="images/IMG_9311.jpeg" alt="Collessum" width="504" height="378">
+
+
+                    </figure>
+                    <figure>
+                        <img src="images/IMG_9396.jpg" alt="Me Drinking Coca Cola" width="504" height="378">
+
+                    </figure>
+                    <figure>
+                        <img src="images/IMG_9443.JPG" alt="Me in Front of the Street" width="504" height="378">
+
+
+                    </figure>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div data-include="components/footer.html"></div>
+    </main>
+
+    <script src="scripts/HTMLInclude.js"></script>
+
+
+</body>
+
 </html>
