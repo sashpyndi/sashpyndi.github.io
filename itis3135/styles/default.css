@@ -218,3 +218,15 @@ input[type = "text"]{
      text-decoration:none;
  }
 
+
+
+.slideshow-Container img{
+    display:none;
+    width: 504px;
+    height: 378px;
+    
+}
+
+.slideshow-Container img.active{
+    display:inline-block;
+}
