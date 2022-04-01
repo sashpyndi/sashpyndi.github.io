@@ -14,37 +14,38 @@
 
     <main>
         <h1>Slideshow</h1>
-               <div class = "slideShowContainer">
-                <img src ="images/icons8-left-arrow-64.png" alt = "Left Arrow Icon" class = "prev">
-                   
-                    
-                 <img src="images/IMG_3882.JPG" alt="View of Venice" width="504" height="378" class = "active" >
-                
-                             
-            
-                        <img src="images/IMG_9185.JPG" alt="View of St Marx Square" width="504" height="378" class = "mySlides">
-                
+        <div class="slideShowContainer">
+            <img src="images/icons8-left-arrow-64.png" alt="Left Arrow Icon" class="prev" onclick = "plusSlides(-1);">
 
-               
-                        <img src="images/IMG_9279.jpg" alt="Pic of me" width="504" height="378" class = "mySlides">
-              
 
-           
-                        <img src="images/IMG_9311.jpeg" alt="Collessum" width="504" height="378" class = "mySlides">
-           
-
-           
-                        <img src="images/IMG_9396.jpg" alt="Me Drinking Coca Cola" width="504" height="378"  class = "mySlides">
-                   
-                       
-         
-                        <img src="images/IMG_9443.JPG" alt="Me in Front of the Street" width="504" height="378" class = "mySlides">
-     
-
-               
-            
-                <img src ="images/icons8-right-arrow-64.png" alt = "Right Arrow Icon" class = "next">
+            <div class="active">
+                <img src="images/IMG_3882.JPG" alt="View of Venice" width="504" height="378">
             </div>
+
+            <div class="mySlides">
+                <img src="images/IMG_9185.JPG" alt="View of St Marx Square" width="504" height="378">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/IMG_9279.jpg" alt="Pic of me" width="504" height="378">
+
+            </div>
+            <div class="mySlides">
+                <img src="images/IMG_9311.jpeg" alt="Collessum" width="504" height="378">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/IMG_9396.jpg" alt="Me Drinking Coca Cola" width="504" height="378">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/IMG_9443.JPG" alt="Me in Front of the Street" width="504" height="378">
+            </div>
+
+
+
+            <img src="images/icons8-right-arrow-64.png" alt="Right Arrow Icon" class="next" onclick = "plusSlides(1);">
+        </div>
 
 
         <div data-include="components/footer.html"></div>
