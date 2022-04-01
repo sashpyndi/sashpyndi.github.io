@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Sashank Pyndi | ITIS 3135 | Salty Penguin | Slideshow</title>
     <link href="styles/default.css" type="text/css" rel="stylesheet">
-    <script src="slideshow.js"></script>
+
 </head>
 
 <body>
@@ -15,44 +15,27 @@
     <main>
         <h1>Slideshow</h1>
         <div class="slideShowContainer">
-            <img src="images/icons8-left-arrow-64.png" alt="Left Arrow Icon" class="prev" onclick = "plusSlides(-1);">
+            <img src="images/icons8-left-arrow-64.png" alt="Left Arrow Icon" id="prev">
 
+            <!-- <a id="prev">prev</a>
+            <a id="next">next</a> -->
 
-            <div class="active">
-                <img src="images/IMG_3882.JPG" alt="View of Venice" width="504" height="378">
-            </div>
-
-            <div class="mySlides">
-                <img src="images/IMG_9185.JPG" alt="View of St Marx Square" width="504" height="378">
-            </div>
-
-            <div class="mySlides">
-                <img src="images/IMG_9279.jpg" alt="Pic of me" width="504" height="378">
-
-            </div>
-            <div class="mySlides">
-                <img src="images/IMG_9311.jpeg" alt="Collessum" width="504" height="378">
-            </div>
-
-            <div class="mySlides">
-                <img src="images/IMG_9396.jpg" alt="Me Drinking Coca Cola" width="504" height="378">
-            </div>
-
-            <div class="mySlides">
-                <img src="images/IMG_9443.JPG" alt="Me in Front of the Street" width="504" height="378">
-            </div>
+            <img src="images/IMG_3882.JPG" alt="View of Venice" width="504" height="378" id="image">
 
 
 
-            <img src="images/icons8-right-arrow-64.png" alt="Right Arrow Icon" class="next" onclick = "plusSlides(1);">
+
+
+
+            <img src="images/icons8-right-arrow-64.png" alt="Right Arrow Icon" id="next">
         </div>
 
 
         <div data-include="components/footer.html"></div>
     </main>
 
-    <script src="scripts/HTMLInclude.js"></script>
-
+    <!-- <script src="scripts/HTMLInclude.js"></script> -->
+    <script src="scripts/slideshow.js"></script>
 
 </body>
 

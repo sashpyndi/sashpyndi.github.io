@@ -1,29 +1,42 @@
-
-let slideIndex =1;
-showSlides(slideIndex);
-
-function plusSlides(n){
-    showSlides(slideIndex = n);
-}
-
-function currentSlide(n){
-    showSlides(slideIndex = n);
-}
+let images = [
+ "images/IMG_3882.JPG",
+ "images/IMG_4711.jpeg",
+ "images/IMG_9185.JPG",
+ "images/IMG_9279.jpg",
+ "images/IMG_9443.JPG"
 
 
-function showSlides(n){
-   let i;
-   let slides = doucment .getElemntByClassName("mySlides");
-   if(n>slides.length){slideIndex = 1}
-   if(n<1){
-       slideIndex = slides.length;
-   }
-
-   for(i = 0; i< slides.length; i++){
-       slides[i].display = "none";
-   }
-   slides[slideIndex-1].style.display = "block";
-}
+];
 
 
+let next = document.getElementById("next");
+let prev = document.getElementById("prev");
+let img = document.getElementById("image");
 
+next.addEventListener("click", ()=>{
+    let source = img.getAttribute("src");
+    let index = images.indexOf(source);
+
+    if(index === images.length-1){
+        img.setAttribute("src", images[0]);
+    }
+    else{
+        img.setAttribute("src", images[index+1]);
+    }
+
+});
+
+
+prev.addEventListener("click", ()=>{
+    let source = img.getAttribute("src");
+    let index = images.indexOf(source);
+
+    if(index === 0){
+        img.setAttribute("src", images[images.length-1]);
+
+    }
+    else{
+        img.setAttribute("src", images[index-1]);
+    }
+
+});
