@@ -222,13 +222,15 @@ input[type = "text"]{
 .slideShowContainer{
   margin-left: 500px;
   margin-right: 500px;
+  display: flex;
+  align-items: center;
 
 }
 .mySlides{
     display:none;
 }
-.prev,.next{
-    cursor: pointer;
+#prev,#next{
+    /* cursor: pointer;
     position:absolute;
     top:40%;
     width:auto;
@@ -237,15 +239,10 @@ input[type = "text"]{
     color:white;
     font-weight:bold;
     font-size:20px;
-    border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0; */
+    height: 5rem;
 }
-.prev{
-    margin-left: -45px;
-}
-.next{
-   margin-left:-45px;
-margin-right: 375px;
-}
+
 .prev:hover,.next:hover{
     background-color: rgba(0,0,0,0.8);
 }
