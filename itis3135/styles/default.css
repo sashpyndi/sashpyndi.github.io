@@ -244,7 +244,7 @@ input[type = "text"]{
 }
 .next{
    margin-left:-45px;
-   margin-right: 385px;
+margin-right: 375px;
 }
 .prev:hover,.next:hover{
     background-color: rgba(0,0,0,0.8);
@@ -252,4 +252,8 @@ input[type = "text"]{
 .next{
     right:0;
     border-radius: 3px 0 0 3px;
+}
+
+img .active{
+    display:inline-block;
 }
