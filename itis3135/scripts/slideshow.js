@@ -1,6 +1,11 @@
 
 
 function showSlides(n){
-    let slides = document.getElementsByClassName("mySlides");
+    let currentSlide = document.getElementsByClassName("active");
+    let i;
+
+    for(i = 0; i<slides.length; i++){
+       
+    }
 }
 
