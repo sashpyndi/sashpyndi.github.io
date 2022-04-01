@@ -219,13 +219,36 @@ input[type = "text"]{
  }
 
 
+.slideShowContainer{
+  margin-left: 500px;
+  margin-right: 500px;
 
-.slideshow-Container img{
-    display:none;
-  
-    
 }
-
-.slideshow-Container img.active{
-    display:inline-block;
+.mySlides{
+    display:none;
+}
+.prev,.next{
+    cursor: pointer;
+    position:absolute;
+    top:40%;
+    width:auto;
+    padding: 16px;
+    margin-top: 70px;
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+    border-radius: 0 3px 3px 0;
+}
+.prev{
+    margin-left: -45px;
+}
+.next{
+   margin-left:0px;
+}
+.prev:hover,.next:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+.next{
+    right:0;
+    border-radius: 3px 0 0 3px;
 }
