@@ -243,7 +243,8 @@ input[type = "text"]{
     margin-left: -45px;
 }
 .next{
-   margin-left:0px;
+   margin-left:-45px;
+   margin-right: 385px;
 }
 .prev:hover,.next:hover{
     background-color: rgba(0,0,0,0.8);
