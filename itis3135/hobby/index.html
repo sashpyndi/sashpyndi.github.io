@@ -1,136 +1,185 @@
 <!DOCTYPE html>
-<html lang = "en-US">
+<html lang="en-US">
+
 <head>
-     <meta charset = "utf-8">
-     <title>Hobby Site</title>
-  
+    <meta charset="utf-8">
+    <title>Hobby Site</title>
+
 </head>
+
 <body>
- <style>
-     h1{
-        color: maroon;
-        text-align:center;
+    <style>
+        h1 {
+            color: maroon;
+            text-align: center;
 
-     }
-     h2,h3{
-       color: brown;
-       text-align: center;
-     }
-     body{
-        background-color:#F0DFAD;
-        text-align:left;
-     }
-     .solid{
-         border-top: 5px solid;
-         
-     }
-     p{
-         color: maroon;
-         text-align:left;
-     }
+        }
 
-     
-     figure{
-         text-align:center;
-     }
-     
-     
-     nav{
-         text-align:center;
-         background-color: yellowgreen;
-         color: darkred;
-     }
+        h2,
+        h3 {
+            color: brown;
+            text-align: center;
+        }
 
-   
- </style>
-  <header>
-    <nav>
-     <a href = #Home><strong>Home |</strong></a>   
-     <a href = #About><strong>About |</strong></a>   
-     <a href = #BestTrip><strong>Lovely Moments! |</strong></a>   
-     <a href = #Why><strong>Why? |</strong></a>   
-     <a href = #How><strong>How </strong></a>   
-       
+        body {
+            background-color: #F0DFAD;
+            text-align: left;
+        }
 
-    </nav>
- </header>
-  
-  <main>
-    <h1> Hobby Site</h1>
-    <section id = "Home" class = "solid">
-      <h2>Home</h2>
-      <p>Welcome to my Hobby site. In this site, I am going to talk about my favorite hobby which is traveling.</p>
+        .solid {
+            border-top: 5px solid;
 
-    </section>
-    <section id = "About" class = "solid">
-      <h2>About </h2>
-      <p> My name is Sashank Pyndi, and I am currently a sophomore at UNC Charlotte majoring in Computer Science. Outside of school, one of my favorite hobbies 
-          to do is to go and travel mostly inside the United States, and sometimes out of country. My family is originally from India, so I usually make a visit there every five years 
-          , and during those vists it opens me up more to the culture, and increses my motivation go go see more places. During the summer of 2016 on the way to India, my family and I make a trip
-         to Italy which was one of the best moments in my life. 
+        }
+
+        p {
+            color: maroon;
+            text-align: left;
+        }
 
 
-         <figure>
-             <img src = "images/IMG_4712.jpeg" alt = "TybeeIsland" width = "250" height= "200">
-             <figcaption> A Picture of me at Tybee Island</figcaption>
+        figure {
+            text-align: center;
+        }
 
-             
-         </figure>
-     </p>
-    </section>
-    <section id = "BestTrip" class = "solid">
-        <h2>Lovely Moments!</h2>
-        <p>In 2016, my family and I visited Italy, which was my favorite traveling experience so far. My Italy vacation really opened me up to the culture there, I got 
-            to try some authentic Italian Pizza's and pastas, and also was able to see some amazing landmarks. The cities I visited there were Venice, Rome, and Milan. My favorite
-            landmark in Rome Was the Roman Collessum which was a beautiful looking landmark where I got to learn about the gladiator and olympics during those days.
-         </p>
-     
-         <figure>
-             <img src = "images/IMG_9308.JPG" alt = "RomanCollessum" width = "500" height = "500"><br>
-             <figacaption>A picture of me in front of the Colessum</figacaption>
-         </figure><br><br>
-         <figure>
-            <img src = "images/IMG_9443.JPG" alt = "FrontOfStreet" width = "500" height = "500"><br>
-            <figacaption>A picture of me in front of a street</figacaption>
-        </figure><br><br>
-        <figure>
-            <img src = "images/IMG_3912.JPG" alt = "ViewOfSaintMarx" width = "500" height = "500"><br>
-            <figacaption>A view of Saint Marx Square</figacaption>
-        </figure><br><br>
-        <figure>
-            <img src = "images/IMG_9529.jpg" alt = "milanCathedral" width = "500" height = "500"><br>
-            <figacaption>Milan Cathedral</figacaption>
-        </figure>
- 
-    </section>
-  
-    <section id = "Why" class = "solid">
-        <h2>Why</h2>
-        <p>
-            When I travel I enjoy seeing everything and learnign everything in the first hand experience
-            and I tend to learn things better than just reading a textbook at school. With that, I really learned a lot of stuff first hand 
-           about the gladiator fights and saw the monuments of Venice and rome where the city has origniated from.
-        </p>
 
-        <figure>
-            <img src = "images/IMG_9396.JPG" alt ="Coca Cola" width = "500" height = "300"><br>
-            <figacaption>Me drinking coca cola</figacaption>
-        </figure>
+        nav {
+            text-align: center;
+            background-color: yellowgreen;
+            color: darkred;
+        }
 
-    </section>
-    <section id = "How" class = "solid">
-        <h2>How?</h2>
-        <p>
-         With our Italy trips and many of our trips we got a good deal when going through Italy while traveling 
-         to India so we agreed to go with it. It was really worth visiting for that one week as we saw and came across lot of interesting and beautiful place. 
-        </p>
-        <figure>
-            <img src = "images/IMG_9257.JPG" alt = "Me Sitting Down" width = "500" height = "300"><br>
-            <figacaption>Me sitting down</figacaption>
-        </figure>
-    </section>
-  </main>
-  <footer>
+        .flex-Parent {
+            display: flex;
+        }
 
-  </footer>
+        .jc-center {
+            justify-content: center;
+        }
+
+        button.margin-right {
+            margin-right: 20px;
+        }
+    </style>
+    <header>
+        <nav>
+            <a href=#Home><strong>Home |</strong></a>
+            <a href=#About><strong>About |</strong></a>
+            <a href=#BestTrip><strong>Lovely Moments! |</strong></a>
+            <a href=#Why><strong>Why? |</strong></a>
+            <a href=#How><strong>How </strong></a>
+
+
+        </nav>
+    </header>
+
+    <main>
+        <h1> Hobby Site</h1>
+        <section id="Home" class="solid">
+            <h2>Home</h2>
+            <p>Welcome to my Hobby site. In this site, I am going to talk about my favorite hobby which is traveling.
+            </p>
+            <figure>
+                <img src="images/IMG_4205.JPG" alt="A picture of myself " width="250" height="200"><br>
+                <figacaption>A picture of myself</figacaption>
+            </figure>
+
+        </section>
+        <section id="About" class="solid">
+            <h2>About </h2>
+            <p> My name is Sashank Pyndi, and I am currently a sophomore at UNC Charlotte majoring in Computer Science.
+                Outside of school, one of my favorite hobbies
+                to do is to go and travel mostly inside the United States, and sometimes out of country. My family is
+                originally from India, so I usually make a visit there every five years
+                , and during those vists it opens me up more to the culture, and increses my motivation go go see more
+                places. During the summer of 2016 on the way to India, my family and I make a trip
+                to Italy which was one of the best moments in my life.
+
+
+            <figure>
+                <img src="images/IMG_4712.jpeg" alt="TybeeIsland" width="250" height="200">
+                <figcaption> A Picture of me at Tybee Island</figcaption>
+
+
+            </figure>
+            </p>
+        </section>
+        <section id="BestTrip" class="solid">
+            <h2>Lovely Moments!</h2>
+            <p>In 2016, my family and I visited Italy, which was my favorite traveling experience so far. My Italy
+                vacation really opened me up to the culture there, I got
+                to try some authentic Italian Pizza's and pastas, and also was able to see some amazing landmarks. The
+                cities I visited there were Venice, Rome, and Milan. My favorite
+                landmark in Rome Was the Roman Collessum which was a beautiful looking landmark where I got to learn
+                about the gladiator and olympics during those days.
+            </p>
+
+            <figure>
+                <img src="images/IMG_9308.JPG" alt="RomanCollessum" width="500" height="500"><br>
+                <figacaption>A picture of me in front of the Colessum</figacaption>
+            </figure><br><br>
+            <figure>
+                <img src="images/IMG_9443.JPG" alt="FrontOfStreet" width="500" height="500"><br>
+                <figacaption>A picture of me in front of a street</figacaption>
+            </figure><br><br>
+            <figure>
+                <img src="images/IMG_3912.JPG" alt="ViewOfSaintMarx" width="500" height="500"><br>
+                <figacaption>A view of Saint Marx Square</figacaption>
+            </figure><br><br>
+            <figure>
+                <img src="images/IMG_9529.jpg" alt="milanCathedral" width="500" height="500"><br>
+                <figacaption>Milan Cathedral</figacaption>
+            </figure>
+
+        </section>
+
+        <section id="Why" class="solid">
+            <h2>Why</h2>
+            <p>
+                When I travel I enjoy seeing everything and learnign everything in the first hand experience
+                and I tend to learn things better than just reading a textbook at school. With that, I really learned a
+                lot of stuff first hand
+                about the gladiator fights and saw the monuments of Venice and rome where the city has origniated from.
+            </p>
+
+            <figure>
+                <img src="images/IMG_9396.JPG" alt="Coca Cola" width="500" height="300"><br>
+                <figacaption>Me drinking coca cola</figacaption>
+            </figure>
+
+        </section>
+        <section id="How" class="solid">
+            <h2>How?</h2>
+            <p>
+                With our Italy trips and many of our trips we got a good deal when going through Italy while traveling
+                to India so we agreed to go with it. It was really worth visiting for that one week as we saw and came
+                across lot of interesting and beautiful place.
+            </p>
+            <figure>
+                <img src="images/IMG_9257.JPG" alt="Me Sitting Down" width="500" height="300"><br>
+                <figacaption>Me sitting down</figacaption>
+            </figure>
+        </section>
+    </main>
+    <footer class="solid">
+        <h3>Created by<a href="sashpyndiindustries.com/">Sashankpyndi Industries</a> &copy;2022.</h3>
+
+
+        <div class="flex-parent jc-center">
+            <div class="margin-right">
+                <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                    <div class="validationButtons" id="button1">
+                        <img src="images/button_validation_css.png" width="88" height="31" />
+                        <div>
+                </a>
+            </div>
+
+            <div class="margin-right">
+                <a href="https://validator.w3.org/check?uri=referer">
+                    <div class="validationButtons" id="button2">
+                        <img src="images/button_validation_html5.png" width="88" height="31" />
+                    </div>
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
