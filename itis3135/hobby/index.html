@@ -47,21 +47,21 @@
             background-color: yellowgreen;
             color: darkred;
         }
-
-        .flex-Parent {
-            display: flex;
+       
+        .center{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        .hide{
+            display: none;
         }
 
-        .jc-center {
-            justify-content: center;
-        }
-
-        button.margin-right {
-            margin-right: 20px;
-        }
+        
     </style>
     <header>
-        <nav>
+        <nav >
             <a href=#Home><strong>Home |</strong></a>
             <a href=#About><strong>About |</strong></a>
             <a href=#BestTrip><strong>Lovely Moments! |</strong></a>
@@ -76,7 +76,8 @@
         <h1> Hobby Site</h1>
         <section id="Home" class="solid">
             <h2>Home</h2>
-            <p>Welcome to my Hobby site. In this site, I am going to talk about my favorite hobby which is traveling.
+            <p>Welcome to my Hobby site. In this site, I am going to talk about my favorite hobby which is traveling. As we all know traveling and learning 
+              about new cultures is a very intersting and fun thing to do and it opens our minds up.
             </p>
             <figure>
                 <img src="images/IMG_4205.JPG" alt="A picture of myself " width="250" height="200"><br>
@@ -84,7 +85,7 @@
             </figure>
 
         </section>
-        <section id="About" class="solid">
+        <section id="About" class="solid" onclick = "showAboutPage()">
             <h2>About </h2>
             <p> My name is Sashank Pyndi, and I am currently a sophomore at UNC Charlotte majoring in Computer Science.
                 Outside of school, one of my favorite hobbies
@@ -145,6 +146,10 @@
                 <img src="images/IMG_9396.JPG" alt="Coca Cola" width="500" height="300"><br>
                 <figacaption>Me drinking coca cola</figacaption>
             </figure>
+            <figure>
+                <img src="images/IMG_9334.JPG" alt="Trevi Fountain" width="500" height="300"><br>
+                <figacaption>Trevi Fountain</figacaption>
+            </figure>
 
         </section>
         <section id="How" class="solid">
@@ -158,28 +163,30 @@
                 <img src="images/IMG_9257.JPG" alt="Me Sitting Down" width="500" height="300"><br>
                 <figacaption>Me sitting down</figacaption>
             </figure>
+            <figure>
+                <img src="images/IMG_9534.JPG" alt="Guitars" width="500" height="300"><br>
+                <figacaption>Guitars</figacaption>
+            </figure>
         </section>
     </main>
     <footer class="solid">
         <h3>Created by<a href="sashpyndiindustries.com/">Sashankpyndi Industries</a> &copy;2022.</h3>
+  
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <div class="validationButtons" id="button1">
+                    <img src="images/button_validation_css.png" width="88" height="31" class = "center"/>
+                    <div>
+            </a>
+
+     
 
 
-        <div class="flex-parent jc-center">
-            <div class="margin-right">
-                <a href="https://jigsaw.w3.org/css-validator/check/referer">
-                    <div class="validationButtons" id="button1">
-                        <img src="images/button_validation_css.png" width="88" height="31" />
-                        <div>
-                </a>
-            </div>
-
-            <div class="margin-right">
-                <a href="https://validator.w3.org/check?uri=referer">
-                    <div class="validationButtons" id="button2">
-                        <img src="images/button_validation_html5.png" width="88" height="31" />
-                    </div>
-                </a>
-            </div>
-        </div>
+       
+            <a href="https://validator.w3.org/check?uri=referer">
+                <div class="validationButtons" id="button2">
+                    <img src="images/button_validation_html5.png" width="88" height="31" class = "center" />
+                </div>
+            </a>
     </footer>
+
 </body>
