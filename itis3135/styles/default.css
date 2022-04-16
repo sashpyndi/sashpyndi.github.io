@@ -250,4 +250,17 @@ input[type = "text"]{
     right:0;
     border-radius: 3px 0 0 3px;
 }
+#image_list ul{
+    margin: 0;
+    padding: 0;
+}
+#image_list li{
+ 
+    padding-right: 10px;
+    display:inline;
+    align-items: center;
+   
+
+}
+
 
