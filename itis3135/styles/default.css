@@ -251,16 +251,21 @@ input[type = "text"]{
     border-radius: 3px 0 0 3px;
 }
 #image_list ul{
-    margin: 0;
-    padding: 0;
+    margin-left: 100px;
+
 }
 #image_list li{
- 
+    padding-left: 10px;
     padding-right: 10px;
     display:inline;
-    align-items: center;
-   
+}
+.alignImage{
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.alignImageList{
+    margin-left: 300px;
+  
 
 }
-
 

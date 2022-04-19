@@ -5,18 +5,20 @@
 <head>
 	<meta charset="UTF-8">
     <title>Image Swap</title>
-	<link rel="stylesheet" href="Activity10.css" />
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="Activity10.js"></script> 
+   
 	<link href="styles/default.css" type="text/css" rel="stylesheet">
 	
 </head>
 
-<body>
+<body >
 	<div data-include="components/header.html"></div>
 	<main>
+		
+	
 		<h1>Image Swap</h1>
-	    <ul id="image_list">
+		<div class = "alignImageList">
+        <ul id="image_list">
 	        <li><a href="images/Activity10_images/h1.jpg" title="James Allison: 1-1">
 	        	<img src="images/Activity10_thumbnails/t1.jpg" alt=""></a></li>
 	        <li><a href="images/Activity10_images/h2.jpg" title="James Allison: 1-2">
@@ -30,12 +32,16 @@
 	        <li><a href="images/Activity10_images/h6.jpg" title="James Allison: 1-6">
 	        	<img src="images/Activity10_thumbnails/t6.jpg" alt=""></a></li>
 	    </ul>
-	    <h2 id="caption">James Allison: 1-1</h2>               
+	</div>
+	    <h2 id="caption">James Allison: 1-1</h2>  
+	    <div class = "alignImage">
 	    <p><img src="images/Activity10_images/h1.jpg" alt="" id="image"></p>
+	   </div>
 	</main>	
 	
 	<div data-include="components/footer.html"></div>
     <script src = "scripts/HTMLInclude.js"></script>
+	<script src="scripts/Activity10.js"></script> 
 	
 	<script src = "scripts/jquery.js"></script>
 </body>
