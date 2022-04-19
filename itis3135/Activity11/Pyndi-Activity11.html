@@ -4,16 +4,17 @@
 	<meta charset="UTF-8">
 	<title>Accordion</title>
     <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
-	<link rel="stylesheet" href="Activity11.css">
+	<link rel="stylesheet" href="Pyndi-Activity11.css">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
-    <script src="Activity11.js"></script>
+    <script src="Pyndi-Activity11.js"></script>
 
 
 
 </head>
 
 <body>
+	 <div data-include="components/header.html"></div>
 	<main>
 		<!-- Some of these content are taken from the CCI Website-->
 		<h1>COLLEGE OF COMPUTING AND INFORMATICS</h1>
@@ -22,11 +23,10 @@
 			and is recognized as the industry leader for partnerships and collaborations.</p>
         <!-- Tabs HTML code -->
         <div id="tabs">
-					<ul>
-							<li><a href="#tabs-1">Undergraduate Studies</a></li>
-							<li><a href="#tabs-2">Masters Program</a></li>
-							<li><a href="#tabs-3">A MESSAGE FROM OUR DEANr</a></li>
-					</ul>
+			
+
+
+			    <h3> Undergraduate Program</h3>
 				<div id="tabs-1">
 
                 <p>The College of Computing and Informatics (CCI) offers a B.S. and a B.A. in Computer Science (CS)
@@ -39,9 +39,12 @@
 									interning at top companies. Students graduate with the skills and knowledge
 									to pursue rewarding careers or continue their studies in graduate school.</p>
                  </div>
+
+
+				 <h3> Masters program</h3>
 			     <div id="tabs-2">
 
-
+             
                 <p>With Master's programs in <strong>Computer Science, Cybersecurity, Information Technology, Bioinformatics, Architecture/Computer Science,
 									Architecture/Information Technology, Data Science/Business Analytics and Health Informatics </strong>,
 									CCI offers one of the fastest-growing and most diverse graduate programs in the country.</p>
@@ -50,6 +53,7 @@
 					 Our students are regularly targeted for Fortune 500 employment opportunities,
 					 many of which begin as internships and mentoring relationships established in our Business Partners program.</p>
                 </div>
+				<h3> A message From Our Dean</h3>
 			    <div id="tabs-3">
 
 
@@ -64,10 +68,12 @@
                 </div>
         <!-- End Tabs HTML code -->
     </main>
-    <footer>
-        <br/>
+	<footer>
         <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
         <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
     </footer>
+	<script src = "scripts/HTMLInclude.js"></script>
+ 
+ 
 </body>
 </html>
