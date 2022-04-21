@@ -1,11 +1,9 @@
 $(document).ready(function() {
   $('#nav_list li').on('click',function(){
+      let title = $(this).children("a").attr("title");
     $.ajax({
         type: "get",
-        url: "toobin.json"+
-        "sorkin.json"+
-         "sampson.json"+
-         "chua.json",
+        url: "json_files/"+title+ ".json",
 
         beforeSend: function() {
             $("main").html("Loading...");
@@ -20,7 +18,8 @@ $(document).ready(function() {
             $.each(data,function(){
                $.each(this,function(key,value){
                    $("main").append(
-                       value.month + value.title + value.speaker + value.image+ value.text
+                   "<h1>"+value.title+"</h1>" +  "<h2>"+value.month+"</h2>" + "<h3>"+value.speaker+"</h3>" + "<img src ="+value.image +">" + "<p>" +value.text +
+                   "</p>"
                        
                    );
                });
