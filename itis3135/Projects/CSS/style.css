@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
 h1{
     text-align:center;
     color: red;
-    font-family: 'Mochiy';
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
 }
 header{
     background-color: lightblue;
@@ -21,10 +27,11 @@ a{
 nav{
     text-align:center;
     color: darkred;
+    font-family: 'Courgette', cursive;
 }
 h2,h3{
     text-align:center;
-    font-family: 'Mochiy';
+    font-family: 'Merienda', cursive;
     color:brown;
     
 }
@@ -35,7 +42,8 @@ label{
 }
 
 img{
-    text-align: center;
+   margin-left: 450px;
+   margin-top: 50px;
 
 }
 footer{
@@ -50,6 +58,8 @@ footer{
     margin-top: 50px;
     padding-top : 20px;
     padding-bottom: 70px;
+    border-style: solid;
+    border-color: green;
 
  
 }
@@ -57,4 +67,13 @@ footer{
 .container2{
     margin-left:200px;
 
+}
+p{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    color:brown;
+}
+li{
+    font-family: 'Nanum Gothic', sans-serif;
+    color:brown;
 }
