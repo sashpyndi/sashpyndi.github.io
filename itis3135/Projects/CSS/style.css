@@ -2,6 +2,7 @@
 h1{
     text-align:center;
     color: red;
+    font-family: 'Mochiy';
 }
 header{
     background-color: lightblue;
@@ -12,6 +13,7 @@ header{
 }
 body{
     background-color: #DAF7A6  ;
+    font-family: sans-serif;
 }
 a{
     color:maroon;
@@ -20,13 +22,13 @@ nav{
     text-align:center;
     color: darkred;
 }
-h2{
+h2,h3{
     text-align:center;
+    font-family: 'Mochiy';
+    color:brown;
     
 }
-h3{
-    text-align:center;
-}
+
 
 label{
     text-align:center;
@@ -34,4 +36,25 @@ label{
 
 img{
     text-align: center;
+
+}
+footer{
+    text-align: center;
+    background-color: lightblue;
+}
+.container{
+    background-color: pink;
+
+    margin-left: 400px;
+    margin-right: 500px;
+    margin-top: 50px;
+    padding-top : 20px;
+    padding-bottom: 70px;
+
+ 
+}
+
+.container2{
+    margin-left:200px;
+
 }
