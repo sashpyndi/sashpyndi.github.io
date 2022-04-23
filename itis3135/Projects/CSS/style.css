@@ -108,9 +108,21 @@ button{
     padding-bottom: 20px;
 
 }
-#image_Container_Information_Page{
-    display:flex;
-    margin-right: 700px;
-    margin-left: -100px;
-   
+.column{
+    float:left;
+    width:33.33%;
+    padding:5px;
+}
+
+.row:after{
+    content:"";
+    clear:both;
+    display:table;
+}
+
+#container_orderedList{
+    margin-left:300px;
+}
+#container_unOrderedList{
+    margin-left:100px;
 }
