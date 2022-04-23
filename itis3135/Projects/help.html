@@ -16,22 +16,28 @@
         <div class = "container">
        <h3> Fill out this form to Schedule an Appointment</h3>
        <div class = "container2">
-        <form>
+        <form action = "/action_page.php" method = "get" id = "form2">
             <label for="fname">First Name</label><br>
-            <input type="text" id="fname" name="fname" placeholder = "Enter your first name"></input><br><br>
+            <input type="text" id="fname" name="fname" placeholder = "Enter your first name" required></input><br><br>
             <label for="lname">Last Name</label><br>
-            <input type="text" id="lname" name="lname" placeholder = "Enter your last name"><br><br>
+            <input type="text" id="lname" name="lname" placeholder = "Enter your last name" required><br><br>
             <label for = "phoneNumber">Phone Number:</label><br>
-            <input type = "text" id = "phoneNumber" name = "phoneNumber" placeholder = "000-000-0000"><br><br>
+            <input type = "text" id = "phoneNumber" name = "phoneNumber" placeholder = "000-000-0000"required><br><br>
             <label for = "emailAddress"> Email address: </label><br>
-            <input type = "text" id = "emailAddress" name = "emailAddress"  placeholder = "example@gmail.com"><br><br>
+            <input type = "text" id = "emailAddress" name = "emailAddress"  placeholder = "example@gmail.com" required><br><br>
             <label for="reason"> Reason for scheduling an appointment: </label><br>
-            <input type = "text" id = "reason" name = "reason" placeholder = "I might have an STD"><br><br><br>
+            <input type = "text" id = "reason" name = "reason" placeholder = "I might have an STD" required><br><br>
+            <label for="date">Date for Testing:</label><br>
+            <input type = "date" name = "begin" placeholder="dd-mm-yyyy" value = "" min = "1997-01-01" max = "2030-12-31" required><br><br>
+    
+            <label for = "appt">Time:</label><br>
+            <input type = "time" id = "appt" name = "appt" min="09:00" max = "18:00" required><br><br>
 
-            <button>Reset</button>
-            <button>Submit</button>
+          
 
         </form>
+        <button type = "reset" form = "form2" value = "Reset">Reset</button>
+        <button type = "submit" form = "form2" value = "Submit">Submit</button>
     </div>
     </div>
     </main><br><br><br>

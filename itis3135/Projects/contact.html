@@ -18,21 +18,22 @@
         <label>Phone Number:980-621-4336 </label><br>
         <label> Email Address: Lolsznews@uncc.edu</label><br><br><br>
 
-        <form>
+        <form  action = "/action_page.php" method = "get" id = "form1">
             <label for="fname">Name</label><br>
-            <input type="text" id="fname" name="fname" placeholder = "Enter your first name and last name"></input><br><br>
+            <input type="text" id="fname" name="fname" placeholder = "Enter your first name and last name" required></input><br><br>
             
           <label for=" subject">Subject</label><br>
-           <input type = "text" id = "subject" name = "subject" placeholder = "Subject"></input><br><br>
+           <input type = "text" id = "subject" name = "subject" placeholder = "Subject" required></input><br><br>
 
            <label for = "comments">Comments</label><br>
-           <input type = "text" id = "subject" name = "subject" placeholder = "Subject"></input><br><br>
+           <input type = "text" id = "subject" name = "subject" placeholder = "Comments....." required></input><br><br>
 
-           <button>Reset</button>
-           <button>Submit</button>
+          
 
         </form>
-
+        <button type = "reset" form = "form1" value = "Reset">Reset</button>
+        <button type = "submit" form = "form1" value = "Submit">Submit</button>
+  
 
 
 
