@@ -31,16 +31,24 @@ nav{
     color: darkred;
     font-family: 'Courgette', cursive;
 }
-h2,h3{
+h2{
     text-align:center;
     font-family: 'Merienda', cursive;
     color:brown;
     
 }
+h3{
+    text-align:center;
+    font-family: 'Merienda', cursive;
+    color:green;
+}
 
 
 label{
-    text-align:center;
+    text-align:left;
+    color:brown;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
 }
 input{
     border-radius: 25px;
@@ -57,7 +65,7 @@ footer{
     border-radius: 25px;
 }
 .container{
-    background-color: pink;
+    background-color: peachpuff;
     border-radius:25px;
     margin-left: 400px;
     margin-right: 500px;
@@ -75,7 +83,9 @@ footer{
 
 }
 #container{
-    display:inline-block;
+    display:flex;
+
+    margin-right: 900px;
 }
 p{
     font-family: 'Nanum Gothic', sans-serif;
@@ -91,5 +101,16 @@ button{
     border-radius: 25px;
     background-color: green;
     color:white;
-    width: 200px;
+    width: 500px;
+    padding-left:50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+#image_Container_Information_Page{
+    display:flex;
+    margin-right: 700px;
+    margin-left: -100px;
+   
 }

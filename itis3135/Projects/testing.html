@@ -2,48 +2,56 @@
 <html lang="en-US">
 
 <head>
-    <meta charset="utf-8">
-    <title>STD Homepage</title>
-    <link href="CSS/style.css" type="text/css" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>STD Homepage</title>
+  <link href="CSS/style.css" type="text/css" rel="stylesheet">
 
 </head>
 
 <body>
-    <div data-include="components/header.html"></div>
+  <div data-include="components/header.html"></div>
 
-    <main>
-      <h2> How to Get Tested?</h2>
-      <form action = "/action_page.php" method = "get" id = "form3">
-        <label for = "fname"> First Name:</label><br>
-        <input type= "text" id="fname" name = "fname" placeholder = "Enter your First Name" required><br><br>
+  <main>
 
-        <label for = "lname"> Last name:</label><br>
-        <input type = "text" id = "lname" name = "lname" placeholder = "Enter your Last Name" required><br><br>
+    <h2> How to Get Tested?</h2>
+    <div class="container">
+      <h3>Fill the form Below to Get Tested</h3>
+      <div class="container2">
+        <form action="/action_page.php" method="get" id="form3">
+          <label for="fname"> First Name:</label><br>
+          <input type="text" id="fname" name="fname" placeholder="Enter your First Name" required><br><br>
 
-        <label for="date">Date for Testing:</label><br>
-        <input type = "date" name = "begin" placeholder="dd-mm-yyyy" value = "" min = "1997-01-01" max = "2030-12-31" required><br><br>
+          <label for="lname"> Last name:</label><br>
+          <input type="text" id="lname" name="lname" placeholder="Enter your Last Name" required><br><br>
 
-        <label for = "appt">Time:</label><br>
-        <input type = "time" id = "appt" name = "appt" min="09:00" macx = "18:00" required><br><br>
-         
+          <label for="date">Date for Testing:</label><br>
+          <input type="date" name="begin" placeholder="dd-mm-yyyy" value="" min="1997-01-01" max="2030-12-31"
+            required><br><br>
 
-  
-      </form>
-      <button type = "reset" form = "form3" value = "Reset">Reset</button>
-      <button type = "submit" form = "form3" value = "Submit">Submit</button>
-
-    </main><br><br><br>
+          <label for="appt">Time:</label><br>
+          <input type="time" id="appt" name="appt" min="09:00" macx="18:00" required><br><br>
 
 
-    <div data-include = "components/footer.html"></div>
 
-      
+        </form>
+        <div id="container">
+          <button type="reset" form="form3" value="Reset">Reset</button>
+          <button type="submit" form="form3" value="Submit">Submit</button>
+        </div>
+      </div>
+    </div>
+  </main><br><br><br>
 
 
-   
+  <div data-include="components/footer.html"></div>
+
+
+
+
+
 </body>
 
-<script src = "JavaScript/HTMLInclude.js"></script>
+<script src="JavaScript/HTMLInclude.js"></script>
 
 
 
