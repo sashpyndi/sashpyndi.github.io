@@ -16,6 +16,7 @@ header{
     margin-bottom: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
+    border-radius: 25px;
 }
 body{
     background-color: #DAF7A6  ;
@@ -25,6 +26,7 @@ a{
     color:maroon;
 }
 nav{
+   
     text-align:center;
     color: darkred;
     font-family: 'Courgette', cursive;
@@ -40,6 +42,9 @@ h2,h3{
 label{
     text-align:center;
 }
+input{
+    border-radius: 25px;
+}
 
 img{
    margin-left: 450px;
@@ -49,10 +54,11 @@ img{
 footer{
     text-align: center;
     background-color: lightblue;
+    border-radius: 25px;
 }
 .container{
     background-color: pink;
-
+    border-radius:25px;
     margin-left: 400px;
     margin-right: 500px;
     margin-top: 50px;
@@ -68,6 +74,9 @@ footer{
     margin-left:200px;
 
 }
+#container{
+    display:inline-block;
+}
 p{
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 20px;
@@ -76,4 +85,11 @@ p{
 li{
     font-family: 'Nanum Gothic', sans-serif;
     color:brown;
+}
+
+button{
+    border-radius: 25px;
+    background-color: green;
+    color:white;
+    width: 200px;
 }
