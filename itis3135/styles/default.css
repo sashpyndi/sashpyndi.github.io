@@ -1,30 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
 header{
     background-color: aqua;
-    font-size: 17px;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
 }
 footer{
     background-color: aqua;
     text-align: center;
-    font-size: 17px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 150px;
-    margin-right:150px;
     padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 5px;
-    padding-right: 5px
+  
+  
 }
 body{
-    font-family:  sans-serif;
+    font-family: Tahoma, sans-serif;
     background-color: #BEE7E8;
+    font-size: 130%;
+    margin-left: 100px;
+    margin-right: 100px;
     
 
+}
+a{
+    text-decoration: none;
 }
 .projectDesign h3{
     text-align:left;
@@ -67,19 +65,19 @@ p{
 
 h1{
     text-align: center;
-    font-family: 'Mochiy';
+ 
     color: darkred;
 }
 h2,h3{
    text-align: center;
     color: darkblue;
-   font-family: 'Mochiy'
+
     
 }    
 
 a{
     color: black;
-    font-family: Mochiy;
+  
 }
 ul{
     margin-left: 100px;
@@ -95,7 +93,7 @@ main{
 }
 nav{
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Tahoma, sans-serif;
     color: darkred;
        
 }

@@ -10,20 +10,24 @@ h1{
     font-family: 'Kaushan Script', cursive;
     font-size: 30px;
 }
+
 header{
     background-color: lightblue;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
     border-radius: 25px;
 }
 body{
     background-color: #DAF7A6  ;
     font-family: sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
 }
+
 a{
     color:maroon;
+    text-decoration: none;
 }
 nav{
    
@@ -63,6 +67,10 @@ footer{
     text-align: center;
     background-color: lightblue;
     border-radius: 25px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 }
 .container{
     background-color: peachpuff;
