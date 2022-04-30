@@ -7,6 +7,6 @@ function submitHelpForm(){
 }
 
 function submitContactForm(){
-    let name = document.getElementById("fname").value;
+    let name = document.getElementById("firstName").value;
     alert("I will get in contact with you soon " + name);
 }
