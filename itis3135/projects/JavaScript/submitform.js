@@ -10,3 +10,7 @@ function submitContactForm(){
     let name = document.getElementById("firstName").value;
     alert("I will get in contact with you soon " + name);
 }
+
+function submitTestingForm(){
+    
+}
