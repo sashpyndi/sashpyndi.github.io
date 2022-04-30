@@ -80,16 +80,15 @@ footer{
     margin-top: 50px;
     padding-top : 20px;
     padding-bottom: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
     border-style: solid;
     border-color: green;
 
  
 }
 
-.container2{
-    margin-left:200px;
 
-}
 #container{
     display:flex;
 
