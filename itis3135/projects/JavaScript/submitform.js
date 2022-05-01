@@ -12,5 +12,8 @@ function submitContactForm(){
 }
 
 function submitTestingForm(){
-    
+  let name = document.getElementById("FirstName").value;
+  let date = document.getElementById("Date").value;
+  let time = document.getElementById("Appt").value;
+   alert(name + ", Your total cost for the test is  $1,000. We hope to see you soon on  " + date + " at "  + time);
 }
