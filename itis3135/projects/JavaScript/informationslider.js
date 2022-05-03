@@ -5,11 +5,9 @@ $(document).ready(function() {
         auto: true,
         minSlides: 1,
         maxSlides: 1,
-        slideWidth: 500,
-        slideMargin: 20,
+        slideWidth: 532,
+        slideMargin: 30,
         captions:true,
-        pause:3000,
-        pager:true,
-     
+       
     });
 });
