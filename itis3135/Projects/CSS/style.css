@@ -133,3 +133,21 @@ button{
 #container_unOrderedList{
     margin-left:100px;
 }
+#sliderAlign{
+    margin-left:500px;
+    margin-right:500px;
+}
+
+img{
+   margin:0 auto;
+
+
+}
+#slider{
+    margin:0;
+}
+
+.centerSlider{
+  margin-left:400px;
+
+}
