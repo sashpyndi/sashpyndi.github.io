@@ -1,28 +1,28 @@
 {"STD's":[
 	{
 		"name": "HIV/AIDS",
-        "symptoms":"",
+        "symptoms":"Symptoms: Fever, Headache, Muscle aches and joint pain, Rash, Swollen lymph glands on the neck",
 		"image": "images/imageedit_34_9695372129.png"
 		
 	},
 	{
 		"name":"HPV",
-        "symptoms": "",
+        "symptoms": "Usually doesn't have symptoms but can cause cervical cancer and Genetial Ward",
         "image": "images/imageedit_25_9561255081.jpg"
 	},
 	{
 		"name":"Chylmidia",
-        "symptoms":"",
+        "symptoms":"Painful urination, Vaginal Discharge, Testucular Pain in Men, Bleeding after Sex in Women",
         "image":"images/imageedit_32_2782707778.jpg"
 	},
     {
 		"name":"Gonorrhea",
-        "symptoms":"",
+        "symptoms":"Itching, Puss-like Discharge from the rectum, eye pain",
         "image":"images/imageedit_29_3357670583.jpg"
 	},
     {
 		"name":"Public Lice",
-        "symptoms":"",
+        "symptoms":"Itching in genetial area, crab eggs at bottom of pubic hair, bluish spot on skin where lice are living",
         "image":"images/imageedit_36_8833287772.jpg"
 	}
 ]}
