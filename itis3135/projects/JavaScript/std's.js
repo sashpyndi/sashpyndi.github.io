@@ -18,7 +18,8 @@ $(document).ready(function(){
             $.each(data,function(){
                $.each(this,function(key,value){
                    $("#STD").append(
-                  "<h3>" + value.name + "<h3>"
+                  "<h3>" + value.name + "<h3>"+
+                  "<img src = " + value.image + ">"
                        
                    );
                });
