@@ -6,22 +6,22 @@
 		
 	},
 	{
-		"name":"",
+		"name":"HPV",
         "symptoms": "",
         "image": ""
 	},
 	{
-		"name":"",
+		"name":"Chylmidia",
         "symptoms":"",
         "image":""
 	},
     {
-		"name":"",
+		"name":"Gonorrhea",
         "symptoms":"",
         "image":""
 	},
     {
-		"name":"",
+		"name":"Public Lice",
         "symptoms":"",
         "image":""
 	}
