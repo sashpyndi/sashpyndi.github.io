@@ -18,10 +18,9 @@ $(document).ready(function(){
             $.each(data,function(){
                $.each(this,function(key,value){
                    $("#Homepage").append(
-                  "<h3>" + value.name + "<h3>"+
-                  "<p>" + value.symptoms + "<h3>"+
-                  "<img src = " + value.image + ">"+
-                  "<br><br>"
+                   "<img src = " + value.image + ">" +
+                   "<p>" + value.caption + "<p>"
+               
                        
                    );
                });

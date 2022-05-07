@@ -154,3 +154,7 @@ img{
 .highlightAccordinHeaders{
   background-color: yellow;
 }
+.centerImage{
+   text-align:center;
+   display:block;
+}
