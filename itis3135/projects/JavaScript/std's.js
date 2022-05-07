@@ -19,7 +19,9 @@ $(document).ready(function(){
                $.each(this,function(key,value){
                    $("#STD").append(
                   "<h3>" + value.name + "<h3>"+
-                  "<img src = " + value.image + ">"
+                  "<p>" + value.symptoms + "<h3>"+
+                  "<img src = " + value.image + ">"+
+                  "<br><br>"
                        
                    );
                });
