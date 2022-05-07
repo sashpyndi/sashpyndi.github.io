@@ -2,27 +2,27 @@
 	{
 		"name": "HIV/AIDS",
         "symptoms":"",
-		"image": "images/imageedit_26_5057065095.png"
+		"image": "images/imageedit_34_9695372129.png"
 		
 	},
 	{
 		"name":"HPV",
         "symptoms": "",
-        "image": ""
+        "image": "images/imageedit_25_9561255081.jpg"
 	},
 	{
 		"name":"Chylmidia",
         "symptoms":"",
-        "image":""
+        "image":"images/imageedit_32_2782707778.jpg"
 	},
     {
 		"name":"Gonorrhea",
         "symptoms":"",
-        "image":""
+        "image":"images/imageedit_29_3357670583.jpg"
 	},
     {
 		"name":"Public Lice",
         "symptoms":"",
-        "image":""
+        "image":"images/imageedit_36_8833287772.jpg"
 	}
 ]}
