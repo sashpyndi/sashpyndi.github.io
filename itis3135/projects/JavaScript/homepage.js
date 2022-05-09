@@ -1,3 +1,5 @@
+// Gets information from the json file that displays the image and caption on the homepage. 
+// @ From  ajax to json activity 15
 $(document).ready(function () {
 
     $.ajax({

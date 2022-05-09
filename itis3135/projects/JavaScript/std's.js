@@ -1,3 +1,5 @@
+// ajax request to std's.json to get information from the json file and displaying STD diseases, symptoms, and images.
+//@ From the ajax request activity 15
 $(document).ready(function () {
 
     $.ajax({

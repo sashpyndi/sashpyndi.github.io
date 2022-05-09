@@ -1,3 +1,5 @@
+//<!-- bx slider for displaying pictures related to STD's -->
+//<!-- @ From the bx slider activity-->
 $(document).ready(function () {
     $(document).ready(function () {
         $("#slider").bxSlider({

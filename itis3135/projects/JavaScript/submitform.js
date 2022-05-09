@@ -1,4 +1,4 @@
-
+/*Function that submits the form to schedule an appoingment and displays and outputs information to the user when submitted.*/ 
 function submitHelpForm() {
     let name = document.getElementById("fname").value;
     let lname = document.getElementById("lname").value;
@@ -14,7 +14,7 @@ function submitHelpForm() {
         window.alert(name + ", Your total cost for this appointment is $2,000. We hope to see you soon on  " + date + " at " + time);
     }
 }
-
+/*Displays a statement saying the client is going to get to me soon after submitted.*/ 
 function submitContactForm() {
     let name = document.getElementById("firstName").value;
     let lastName = document.getElementById("lastName").value;
@@ -26,7 +26,7 @@ function submitContactForm() {
         window.alert("I will get in contact with you soon " + name);
     }
 }
-
+/*Displays a statment for my form for submitting */ 
 function submitTestingForm() {
     let name = document.getElementById("FirstName").value;
     let lastName = document.getElementById("LastName").value;
