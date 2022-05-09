@@ -13,40 +13,29 @@
 
     <main>
         <h2>Contact Page</h2>
-      
-
-                <form  method="get" id="form1">
-                    <h3> Contact form</h3><br><br>
-                    <label id = "fname" for="fname">First Name</label><br>
-                    <input type="text" id="firstName" name="fname" placeholder="Enter your first name"
-                        required></input><br><br>
-                    <label for="lname">Last Name</label><br>
-                    <input type="text" id="lastName" name="lname" placeholder="Enter your first name"
-                        required></input><br><br>
-                    <label for=" subject">Subject</label><br>
-                    <input type="text" id="subject" name="subject" placeholder="Subject" required></input><br><br>
-
-                    <label for="comments">Comments</label><br>
-                    <input type="text" id="subject" name="subject" placeholder="Comments....." required></input><br><br>
-                    <button type="reset" form="form1" value="Reset">Reset</button>
-                    <button  onclick = "submitContactForm()" type="submit" form="form1" value="Submit">Submit</button>
-                </form>
-  
-        
-     </main><br><br><br>
 
 
+        <form method="get" id="form1">
+            <h3> Contact form</h3><br><br>
+            <label id="fname" for="fname">First Name</label><br>
+            <input type="text" id="firstName" name="fname" placeholder="Enter your first name" required></input><br><br>
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="lastName" name="lname" placeholder="Enter your first name" required></input><br><br>
+            <label for=" subject">Subject</label><br>
+            <input type="text" id="subject" name="subject" placeholder="Subject" required></input><br><br>
+            <label for="comments">Comments</label><br>
+            <input type="text" id="subject" name="subject" placeholder="Comments....." required></input><br><br>
+            <button type="reset" form="form1" value="Reset">Reset</button>
+            <button onclick="submitContactForm()" type="submit" form="form1" value="Submit">Submit</button>
+        </form>
+
+
+    </main><br><br><br>
     <div data-include="components/footer.html"></div>
 
-    <script src = "JavaScript/submitform.js"></script>
+    <script src="JavaScript/submitform.js"></script>
     <script src="JavaScript/HTMLInclude.js"></script>
 
 </body>
-
-
-
-
-
-
 
 </html>

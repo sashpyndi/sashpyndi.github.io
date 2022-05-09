@@ -1,65 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
 
-h1{
-    text-align:center;
+h1 {
+    text-align: center;
     color: red;
     font-family: Tahoma;
     font-size: 30px;
 }
 
-header{
+header {
     background-color: lightblue;
     margin-top: 15px;
     margin-bottom: 15px;
     padding-bottom: 20px;
     border-radius: 25px;
 }
-body{
-    background-color: #DAF7A6  ;
+
+body {
+    background-color: #DAF7A6;
     font-family: Tahoma, sans-serif;
     margin-left: 100px;
     margin-right: 100px;
 }
 
-a{
-    color:maroon;
+a {
+    color: maroon;
     text-decoration: none;
 }
-nav{
-   
-    text-align:center;
+
+nav {
+
+    text-align: center;
     color: darkred;
     font-family: Tahoma, sans-serif;
 }
-h2{
-    text-align:center;
-   
-    color:brown;
-    
+
+h2 {
+    text-align: center;
+
+    color: brown;
+
 }
-h3{
-    text-align:center;
- 
-    color:green;
+
+h3 {
+    text-align: center;
+
+    color: green;
 }
 
 
-label{
-    text-align:left;
-    color:brown;
+label {
+    text-align: left;
+    color: brown;
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 20px;
 }
-input{
+
+input {
     border-radius: 25px;
 }
 
-img{
-   margin-left: 450px;
-   margin-top: 50px;
+img {
+    margin-left: 450px;
+    margin-top: 50px;
 
 }
-footer{
+
+footer {
     text-align: center;
     background-color: lightblue;
     border-radius: 25px;
@@ -68,27 +74,30 @@ footer{
     padding-bottom: 10px;
 
 }
+
 /*.container{
 
  
 }*/
-form{
+form {
 
     background-color: peachpuff;
-    border-radius:25px;
+    border-radius: 25px;
     margin-left: 200px;
-    margin-right:300px;
+    margin-right: 300px;
     padding-left: 100px;
-    padding-right:100px;
+    padding-right: 100px;
     padding-bottom: 30px;
     padding-top: 30px;
-    
- 
+
+
 }
-label{
+
+label {
     margin-left: 150px;
 }
-input{
+
+input {
     margin-left: 150px;
 }
 
@@ -97,79 +106,86 @@ input{
 
     margin-right: 900px;
 }*/
-p{
+p {
 
     font-size: 20px;
-    color:brown;
-}
-li{
-   
-    color:brown;
+    color: brown;
 }
 
-button{
+li {
+
+    color: brown;
+}
+
+button {
     border-radius: 25px;
     background-color: green;
-    color:white;
+    color: white;
     width: 200px;
-    padding-left:50px;
+    padding-left: 50px;
     padding-right: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
 
 }
-.column{
-    float:left;
-    width:33.33%;
-    padding:5px;
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
 }
 
-.row:after{
-    content:"";
-    clear:both;
-    display:table;
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
-#container_orderedList{
-    margin-left:300px;
-}
-#container_unOrderedList{
-    margin-left:100px;
-}
-#sliderAlign{
-    margin-left:500px;
-    margin-right:500px;
+#container_orderedList {
+    margin-left: 300px;
 }
 
-img{
-   margin:0 auto;
+#container_unOrderedList {
+    margin-left: 100px;
+}
+
+#sliderAlign {
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+img {
+    margin: 0 auto;
 
 
 }
-#slider{
-    margin:0;
+
+#slider {
+    margin: 0;
 }
 
-.centerSlider{
-  margin-left:400px;
+.centerSlider {
+    margin-left: 400px;
 
 }
-.highlightAccordinHeaders{
-  background-color: yellow;
-}
-.centerImage{
-   text-align:center;
-   display:block;
+
+.highlightAccordinHeaders {
+    background-color: yellow;
 }
 
-#tabs img{
-  margin-left: 350px;
+.centerImage {
+    text-align: center;
+    display: block;
 }
 
-#tabs h3{
+#tabs img {
+    margin-left: 350px;
+}
+
+#tabs h3 {
     background-color: lightpink;
-    color:black;
-     padding-top:25px;
-    padding-bottom:25px;
-    border-radius:25px;
+    color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 25px;
 }
