@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>STD Clinic</title>
+    <link href="CSS/style.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div data-include="components/header.html"></div>
+
+    <main>
+        <h2>Contact Page</h2><br><br>
+
+
+        <form method="get" id="form1">
+            <h3> Contact form</h3><br><br>
+            <label for="firstName">First Name</label><br>
+            <input type="text" id="firstName" name="fname" placeholder="Enter your first name" required><br><br>
+            <label for="lastName">Last Name</label><br>
+            <input type="text" id="lastName" name="lname" placeholder="Enter your first name" required><br><br>
+            <label for="subject">Subject</label><br>
+            <input type="text" id="subject" name="subject" placeholder="Subject" required><br><br>
+            <label for="comments">Comments</label><br>
+            <input type="text" id="comments" name="comments" placeholder="Comments....." required><br><br>
+            <button type="reset" form="form1" value="Reset">Reset</button>
+            <!--Button that uses submitContactForm() function that displays an output to user after hitting submit button-->
+            <button onclick="submitContactForm()" type="submit" form="form1" value="Submit">Submit</button>
+        </form>
+
+
+    </main><br><br><br>
+    <div data-include="components/footer.html"></div>
+
+    <!--uses a function from submitform.js to submit help form-->
+    <!--HTML include javascript-->
+    <script src="JavaScript/submitform.js"></script>
+    <script src="JavaScript/HTMLInclude.js"></script>
+
+</body>
+
+</html>
