@@ -1,19 +1,19 @@
-/*! HTMLInclude v1.1.1 | MIT License | github.com/paul-browne/HTMLInclude */
-!function (w, d) {
+/*! HTMLInclude v1.1.1 | MIT License | github.com/paul-browne/HTMLInclude */ 
+!function(w, d) {
     if (!w.HTMLInclude) {
-        w.HTMLInclude = function () {
+        w.HTMLInclude = function() {
             function isInViewport(element, offset) {
                 return element.getBoundingClientRect().top <= (+offset + w.innerHeight);
             }
             function ajax(url, elements) {
                 var xhr = new XMLHttpRequest();
-                xhr.onreadystatechange = function () {
+                xhr.onreadystatechange = function() {
                     if (xhr.readyState == 4 && xhr.status == 200) {
-                        elements.forEach(function (element) {
+                        elements.forEach(function(element) {
                             var dataReplace = element.getAttribute("data-replace");
                             var z = xhr.responseText;
                             if (dataReplace) {
-                                dataReplace.split(",").forEach(function (el) {
+                                dataReplace.split(",").forEach(function(el) {
                                     var o = el.trim().split(":");
                                     z = z.replace(new RegExp(o[0], "g"), o[1]);
                                 });
