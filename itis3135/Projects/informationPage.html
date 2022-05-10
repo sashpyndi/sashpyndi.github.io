@@ -3,17 +3,20 @@
 
 <head>
   <meta charset="utf-8">
-  <title>STD Homepage</title>
+  <title>STD Clinic</title>
   <link href="CSS/style.css" type="text/css" rel="stylesheet">
 
+  <!--Link to BX slider css-->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
 
+  <!--Links to ajax libraries and bx image slider plugin-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
 
+  <!--JavaScript for the image slider bx plugin-->
   <script src="JavaScript/informationslider.js"></script>
 
-
+  <!--JavaScript for the json -->
   <script src="JavaScript/std's.js"></script>
 
 </head>
@@ -22,8 +25,9 @@
   <div data-include="components/header.html"></div>
 
   <main>
-    <h2> What is sexually transmitted disease?</h2>
+    <h2> What is sexually transmitted disease?</h2><br><br>
     <div class="centerSlider">
+      <!--images for bx slider-->
       <ul id="slider">
         <li><img src="images/imageedit_9_5554800558.jpg" alt="STD image" title="STD Virus"> </li>
 
@@ -40,7 +44,7 @@
       transfered. </p><br><br>
 
     <h2>Types of STD's</h2><br><br>
-
+    <!--id for STD types json data-->
     <div id="STD"></div>
 
   </main><br><br><br>
@@ -48,6 +52,7 @@
 
   <div data-include="components/footer.html"></div>
 
+  <!--HTML include javascript-->
   <script src="JavaScript/HTMLInclude.js"></script>
 </body>
 

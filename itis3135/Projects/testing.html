@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>STD Homepage</title>
+  <title>STD Clinic</title>
   <link href="CSS/style.css" type="text/css" rel="stylesheet">
 
 </head>
@@ -13,25 +13,25 @@
 
   <main>
 
-    <h2> How to Get Tested?</h2>
+    <h2> How to Get Tested?</h2><br><br>
     <form method="get" id="form3">
       <h3>Fill the form Below to Get Tested</h3><br><br>
 
 
-      <label for="fname"> First Name:</label><br>
+      <label for="FirstName"> First Name:</label><br>
       <input type="text" id="FirstName" name="fname" placeholder="Enter your First Name" required><br><br>
 
-      <label for="lname"> Last name:</label><br>
+      <label for="LastName"> Last name:</label><br>
       <input type="text" id="LastName" name="lname" placeholder="Enter your Last Name" required><br><br>
 
-      <label for="date">Date for Testing:</label><br>
-      <input type="date" id="Date" name="begin" placeholder="dd-mm-yyyy" value="" min="1997-01-01" max="2030-12-31"
-        required><br><br>
+      <label for="Date">Date for Testing:</label><br>
+      <input type="date" id="Date" name="begin" value="" min="1997-01-01" max="2030-12-31" required><br><br>
 
-      <label for="appt">Time:</label><br>
+      <label for="Appt">Time:</label><br>
       <input type="time" id="Appt" name="appt" min="09:00" max="18:00" required><br><br>
 
       <button type="reset" form="form3" value="Reset">Reset</button>
+      <!--Button that uses submitTestingForm() function that displays an output to user after hitting submit button-->
       <button onclick="submitTestingForm()" type="submit" form="form3" value="Submit">Submit</button>
 
 
@@ -44,6 +44,8 @@
 
   <div data-include="components/footer.html"></div>
 
+  <!--uses a function from submitform.js to submit help form-->
+  <!--HTML include javascript-->
   <script src="JavaScript/submitform.js"></script>
   <script src="JavaScript/HTMLInclude.js"></script>
 
