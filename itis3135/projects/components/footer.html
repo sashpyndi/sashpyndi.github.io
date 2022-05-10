@@ -1,0 +1,23 @@
+<footer>
+
+    <h3>Created by STD Clinic &copy;2022.</h3>
+
+
+    <p>
+        <button onclick="htmlValidate();" type="button" name="validation_link_html" id="validation_link_html">HTML
+            Validation</button>
+        <button onclick="cssValidate();" type="button" name="validation_link_css" id="validation_link_css">CSS
+            Validation</button>
+    </p>
+    <script>
+       // <!--function from w3 schools for validation-->
+        function htmlValidate() {
+            window.open("https://validator.w3.org/check?uri=" + location.href, "_blank");
+        }
+
+        function cssValidate() {
+            window.open("https://jigsaw.w3.org/css-validator/validator?uri=" + location.href, "_blank");
+        }
+    </script>
+
+</footer>
